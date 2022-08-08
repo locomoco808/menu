@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <title>Loco Moco</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.3/semantic.min.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.3/semantic.min.js"></script>
+    <script type="text/javascript" src="menu-data.js"></script>
+    <script type="text/javascript" src="globalVars.js"></script>
+    <script type="text/javascript" src="header.js"></script>
+    <script type="text/javascript" src="footer.js"></script>
+    <script type="text/javascript" src="searchBar.js"></script>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <div>
+        <div id="header"></div>
+        <br>
+        <div id="mainList">
+            <div class="ui two column stackable middle aligned grid">
+                <div class="column">
+                    <h1>Full Menu</h1>
+                </div>
+                <div class="right floated right aligned column">
+                    <div id="searchBar"></div>
+                </div>
+            </div>
+            <div id="filteredList"></div>
+            <div name="removeIfFilter">
+                <h1>Breakfast Menu (til 12 pm)</h1>
+                <h1>Breakfast Plates</h1>
+                <div id="list1"></div>
+                <h1>Breakfast Sandwiches</h1>
+                <div id="list2"></div>
+                <h1>Breakfast Side Orders</h1>
+                <div id="list3"></div>
+            </div>
+        </div>
+        <div id="lunchList">
+            <div name="removeIfFilter">
+            <h1>Lunch Menu</h1>
+                <h1>Plate Lunch</h1>
+                <div id="list4"></div>
+                <h1>Combination Plates</h1>
+                <div id="list5"></div>
+                <h1>Wok Plates</h1>
+                <div id="list6"></div>
+                <h1>Sandwiches</h1>
+                <div id="list7"></div>
+                <h1>Salads</h1>
+                <div id="list8"></div>
+                <h1>Specialties</h1>
+                <div id="list9"></div>
+                <h1>Lunch Side Orders</h1>
+                <div id="list10"></div>
+                <br>
+            </div>
+        </div>
+        <div id="footer"></div>
+    </div>
+</body>
+</html>
+
+<script type="text/javascript">
+buildHeader();
+buildFooter();
+buildSearchBar();
+buildHTMLstarter();
+</script>

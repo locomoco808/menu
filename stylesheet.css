@@ -1,0 +1,93 @@
+/*@import "rouge-base16-dark";*/
+@import url('https://fonts.googleapis.com/css?family=Chivo:900');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@400;700&display=swap');
+
+body{
+	font-family: 'Helvetica Neue', Helvetica, Arial, serif;
+	line-height: 1.5;
+	font-size: 1.25rem;
+	color: #333333;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
+	/* background: #e7e7e7 url(images/body-bg.png) 0 0 repeat; */
+	background-color: #e0e0e0;
+	padding: 2rem;
+}
+
+h1, a.item {
+	font-family: 'Oxygen';
+}
+
+a.ui.header {
+	font-size: 1rem !important;
+	text-align: center;
+}
+
+p.ui.header {
+	font-size: 1rem !important;
+	text-align: center;
+}
+
+.myImage {
+	height: 150px !important;
+	object-fit: contain;
+	background-color: white;
+}
+
+.biggerfont {
+	font-size: 150%;
+}
+
+.pink {
+	color: #E600A1;
+	font-weight: bold;
+}
+
+.myindent1 {
+	margin-left: 40px;
+}
+
+.myindent2 {
+	margin-left: 20px;
+}
+
+.myindent3 {
+	margin-left: 60px;
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	color: #0439D9;
+}
+
+a:hover {
+	color: #E600A1;
+}
+
+hr {
+	border: 0;
+	height: 1px;
+	background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(175, 175, 175, 0.75), rgba(0, 0, 0, 0));
+}
+
+@media only screen and (max-aspect-ratio: 2/3) {
+	body {
+		line-height: 1.5;
+		/* font-size: 2.75rem; */
+	}
+
+	a, p, #footer {
+		font-size: 2.75rem;
+	}
+
+	a.item {
+		font-size: 3.0rem;
+	}
+
+	h1 {
+		font-size: 4.0rem;
+	}
+}
