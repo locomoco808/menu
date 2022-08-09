@@ -3,15 +3,20 @@ function buildHeader() {
     let header = document.getElementById('header');
     let element = document.createElement('div');
     element.innerHTML +=
-    '<hr> \
-    <p style="text-align: center;"><strong>Phone Orders</strong>: Call <span class="pink">(808) 676-2888</span></p> \
-    <hr> \
-    <div class="ui fluid four item secondary pointing menu"> \
-        <a class="biggerfont activeFull item" href="https://locomoco808.github.io/menu/full">Full Menu</a> \
-        <a class="biggerfont activeBreakfast item" href="https://locomoco808.github.io/menu/breakfast">Breakfast (til 12pm)</a> \
-        <a class="biggerfont activeLunch item" href="https://locomoco808.github.io/menu/lunch">Lunch</a> \
-        <a class="biggerfont activeCatering item" href="https://locomoco808.github.io/menu/catering">Catering</a> \
+    '<div class="ui fixed fluid inverted menu" style="padding: 0px 1rem;"> \
+        <a class="biggerfont activeLogo item" href="https://locomoco808.github.io/menu/full"><img class="ui small spaced image" src="images/loco-moco-logo.png"></a> \
+        <div class="right menu"> \
+          <a class="biggerfont activeFull item" href="https://locomoco808.github.io/menu/full">Full Menu</a> \
+          <a class="biggerfont activeBreakfast item" href="https://locomoco808.github.io/menu/breakfast">Breakfast</a> \
+          <a class="biggerfont activeLunch item" href="https://locomoco808.github.io/menu/lunch">Lunch</a> \
+          <a class="biggerfont activeCatering item" href="https://locomoco808.github.io/menu/catering">Catering</a> \
+        </div> \
     </div> \
+    <br> \
+    <br> \
+    <hr> \
+    <p style="text-align: center;"><strong>Phone Orders</strong>: Call <a class="pink" href="tel:8086762888">(808) 676-2888</a></p> \
+    <hr> \
     ';
     if (href.includes('full')) {
         currentDataSet = menuData;

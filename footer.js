@@ -3,18 +3,24 @@ function buildFooter() {
     let element = document.createElement('div');
     element.innerHTML +=
     '<hr> \
-    <p>The cakes above are available at the following Loco Moco Drive Inn locations:</p> \
-    <details class="myindent1"> \
-        <summary>Waipio Shopping Center</summary> \
-        <div class="myindent2"> \
-            <strong>Address</strong>: 94-800 Ukeʻe Street Ste 301, Waipahu, HI 96797<br> \
-            <strong>Phone</strong>: (808) 676-2888<br> \
-            <strong>Hours</strong>: <strong>Monday - Friday</strong> 10:30am - 9:00pm<br> \
-            <div class="myindent3"><strong>Saturday</strong> 9:30am - 9:00pm<br></div> \
-            <div class="myindent3"><strong>Sunday</strong> 9:30am - 8:00pm<br></div> \
+    <div class="ui two column middle aligned grid"> \
+        <div class="column"> \
+          <div style="text-align: center;"> \
+            <strong>Loco Moco Drive Inn</strong> <br> \
+            Waipio Shopping Center <br> \
+            94-800 Ukeʻe Street Ste 301, Waipahu, HI 96797 <br> \
+            <a href="tel:8086762888">(808) 676-2888</a> <br> \
+          </div> \
         </div> \
-    </details> \
-    <br>\
+        <div class="column"> \
+          <div style="text-align: center;"> \
+            <strong>Hours of Operation</strong> <br> \
+            <strong>Monday - Friday</strong> 10:30am - 9:00pm<br> \
+            <strong>Saturday</strong> 9:30am - 9:00pm<br> \
+            <strong>Sunday</strong> 9:30am - 8:00pm<br> \
+          </div> \
+        </div> \
+    </div> \
     <br>'
     footer.appendChild(element);
 }
