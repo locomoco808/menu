@@ -89,13 +89,13 @@ hr {
 @media only screen and (max-aspect-ratio: 2/3){
 	body {
 		line-height: 1.5;
-		font-size: 2.75rem;
+		font-size: 2rem;
 		color: #1d140a;
 	}
 
-	/* a, p, #footer {
-		font-size: 2.75rem;
-	} */
+	a, p, #footer {
+		font-size: 2rem;
+	}
 
 	a.item {
 		font-size: 2.0rem;
