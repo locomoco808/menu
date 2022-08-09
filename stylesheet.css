@@ -7,11 +7,20 @@ body{
 	font-family: 'Helvetica Neue', Helvetica, Arial, serif;
 	line-height: 1.5;
 	font-size: 1.25rem;
-	color: #333333;
+	color: #1d140a;
 	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
 	/* background: #e7e7e7 url(images/body-bg.png) 0 0 repeat; */
-	background-color: #e0e0e0;
+	background-color: #FFFAEE;
+	/* padding: 2rem; */
+}
+
+#footer {
+	background-color: #2B2B2B;
+	color: #f0f9ff;
+	font-size: 1.25rem;
+	text-shadow: none !important;
 	padding: 2rem;
+	margin: 0;
 }
 
 h1, a.item {
@@ -38,8 +47,8 @@ p.ui.header {
 	font-size: 150%;
 }
 
-.pink {
-	color: #E600A1;
+.red {
+	color: #F20505;
 	font-weight: bold;
 }
 
@@ -60,23 +69,24 @@ li {
 }
 
 a {
-	color: #0439D9;
+	color: #BB3333;
 }
 
 a:hover {
-	color: #E600A1;
+	color: #F20505;
 }
 
 hr {
 	border: 0;
 	height: 1px;
-	background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(175, 175, 175, 0.75), rgba(0, 0, 0, 0));
+	background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(100, 69, 37, 0.55), rgba(0, 0, 0, 0));
 }
 
 @media only screen and (max-aspect-ratio: 2/3) {
 	body {
 		line-height: 1.5;
 		/* font-size: 2.75rem; */
+		color: #1d140a;
 	}
 
 	a, p, #footer {
@@ -85,9 +95,15 @@ hr {
 
 	a.item {
 		font-size: 3.0rem;
+		color: #1d140a;
 	}
 
 	h1 {
 		font-size: 4.0rem;
+		color: #1d140a !important;
+	}
+
+	.paddinglr {
+		padding: 0px 10rem;
 	}
 }

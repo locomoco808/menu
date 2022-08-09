@@ -2,7 +2,6 @@ let currentDataSet = [];
 
 function buildHTMLforList(data, id) {
     let list = document.getElementById(id);
-    console.log(list, id, data);
     let element = document.createElement('ul');
     for (let i = 0; i < data.length; i++) {
         let desc = '';
@@ -21,7 +20,6 @@ function buildHTMLforList(data, id) {
 
 function buildHTMLforList2Price(data, id) {
     let list = document.getElementById(id);
-    console.log(list, id, data);
     let element = document.createElement('ul');
     for (let i = 0; i < data.length; i++) {
         let desc = '';
@@ -40,7 +38,6 @@ function buildHTMLforList2Price(data, id) {
 
 function buildHTMLforList3Price(data, id) {
     let list = document.getElementById(id);
-    console.log(list, id, data);
     let element = document.createElement('ul');
     for (let i = 0; i < data.length; i++) {
         let desc = '';

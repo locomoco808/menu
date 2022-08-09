@@ -16,7 +16,7 @@
 <body>
   <div>
     <div id="header"></div>
-    <div id="mainList">
+    <div id="mainList" style="padding: 2rem">
       <div class="ui two column stackable middle aligned grid">
         <div class="column">
           <h1>Full Menu</h1>
@@ -73,17 +73,20 @@
           </div>
         </div>
       </div>
-      <div id="footer"></div>
+      <br>
+      <br>
     </div>
-  </body>
-  </html>
+  </div>
+  <div id="footer"></div>
+</body>
+</html>
 
-  <script type="text/javascript">
-  buildHeader();
-  buildFooter();
-  buildSearchBar();
-  buildHTMLstarter();
-  $('.ui.accordion')
-  .accordion()
-  ;
+<script type="text/javascript">
+buildHeader();
+buildFooter();
+buildSearchBar();
+buildHTMLstarter();
+$('.ui.accordion')
+.accordion()
+;
 </script>
