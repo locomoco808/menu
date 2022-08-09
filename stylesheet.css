@@ -69,7 +69,7 @@ li {
 }
 
 a {
-	color: #BB3333;
+	color: #BB0000;
 }
 
 a:hover {
@@ -105,5 +105,9 @@ hr {
 	h1 {
 		font-size: 4.0rem;
 		color: #1d140a !important;
+	}
+
+	.paddinglr {
+		padding: 0px 6.25rem !important;
 	}
 }

@@ -103,7 +103,7 @@ const lunchSandwiches = [
 const lunchSalads = [
   { name: "Macaroni Salad", price: "$4.25", description: "", pic: "images/breakfast/cat5.png" },
   { name: "Tossed Green Salad", price: "$7.50", description: "", pic: "images/breakfast/cat5.png" },
-  { name: "Oriental Chinese Chricken Salad", price: "$14.50", description: "", pic: "images/breakfast/cat5.png" },
+  { name: "Oriental Chinese Chicken Salad", price: "$14.50", description: "", pic: "images/breakfast/cat5.png" },
   { name: "Grilled Chicken Salad", price: "$15.20", description: "", pic: "images/breakfast/cat5.png" },
   { name: "Grilled Salmon Salad", price: "$16.55", description: "", pic: "images/breakfast/cat5.png" },
   { name: "Shrimp Salad", price: "$16.55", description: "", pic: "images/breakfast/cat5.png" },
@@ -117,7 +117,7 @@ const lunchSides = [
   { name: "Chili Fries", price: "$6.50", description: "", pic: "images/breakfast/cat5.png" },
   { name: "Saimin", price: "$5.45", description: "", pic: "images/breakfast/cat5.png" },
   { name: "Teri Beef Saimin", price: "$8.25", description: "", pic: "images/breakfast/cat5.png" },
-  { name: "Beef Curry Bowl / Stew Bowl / Chili Bown", price: "$9.05", description: "", pic: "images/breakfast/cat5.png" },
+  { name: "Beef Curry Bowl / Stew Bowl / Chili Bowl", price: "$9.05", description: "", pic: "images/breakfast/cat5.png" },
   { name: "Won Ton Mein", price: "$8.60", description: "", pic: "images/breakfast/cat5.png" },
   { name: "Won Ton Soup", price: "$9.10", description: "", pic: "images/breakfast/cat5.png" },
 ];
