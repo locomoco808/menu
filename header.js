@@ -3,7 +3,7 @@ function buildHeader() {
     let header = document.getElementById('header');
     let element = document.createElement('div');
     element.innerHTML +=
-    '<div class="ui fluid inverted menu" style="padding: 0px 1rem; max-height: 65px; background-color: #2B2B2B;"> \
+    '<div class="ui fluid inverted menu" style="padding: 0px 1rem; max-height: 4rem; background-color: #2B2B2B;"> \
         <a class="biggerfont activeLogo item" href="https://locomoco808.github.io/menu/full"><img class="ui small spaced image" src="images/loco-moco-logo.png"></a> \
         <div class="right menu"> \
           <a class="biggerfont activeFull item" href="https://locomoco808.github.io/menu/full">Full Menu</a> \

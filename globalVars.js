@@ -58,7 +58,7 @@ function buildHTMLforGrid(data, id) {
     let href = window.location.href;
     let list = document.getElementById(id);
     let element = document.createElement('div');
-    let temp = '<div class="ui four cards stackable centered">';
+    let temp = '<div class="ui five cards stackable centered">';
     for (let i = 0; i < data.length; i++) {
         let desc = '';
         if (data[i].description.length > 0) { // if there is a description && not grid
@@ -90,7 +90,7 @@ function buildHTMLforGrid2Price(data, id) {
     let href = window.location.href;
     let list = document.getElementById(id);
     let element = document.createElement('div');
-    let temp = '<div class="ui four cards stackable centered">';
+    let temp = '<div class="ui five cards stackable centered">';
     for (let i = 0; i < data.length; i++) {
         let desc = '';
         if (data[i].description.length > 0) { // if there is a description && not grid
@@ -122,7 +122,7 @@ function buildHTMLforGrid3Price(data, id) {
     let href = window.location.href;
     let list = document.getElementById(id);
     let element = document.createElement('div');
-    let temp = '<div class="ui four cards stackable centered">';
+    let temp = '<div class="ui five cards stackable centered">';
     for (let i = 0; i < data.length; i++) {
         let desc = '';
         if (data[i].description.length > 0) { // if there is a description && not grid

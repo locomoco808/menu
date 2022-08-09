@@ -82,28 +82,28 @@ hr {
 	background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(100, 69, 37, 0.55), rgba(0, 0, 0, 0));
 }
 
-@media only screen and (max-aspect-ratio: 2/3) {
+.paddinglr {
+	padding: 0px 3.3rem !important;
+}
+
+@media only screen and (max-aspect-ratio: 2/3){
 	body {
 		line-height: 1.5;
-		/* font-size: 2.75rem; */
+		font-size: 2.75rem;
 		color: #1d140a;
 	}
 
-	a, p, #footer {
+	/* a, p, #footer {
 		font-size: 2.75rem;
-	}
+	} */
 
 	a.item {
-		font-size: 3.0rem;
+		font-size: 2.0rem;
 		color: #1d140a;
 	}
 
 	h1 {
 		font-size: 4.0rem;
 		color: #1d140a !important;
-	}
-
-	.paddinglr {
-		padding: 0px 10rem;
 	}
 }
