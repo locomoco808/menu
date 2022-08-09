@@ -53,10 +53,14 @@ function buildHTMLforGrid(data, id) {
 
 function buildHTMLstarter() {
     let href = window.location.href;
-    if (href.includes('list')) {
-        for (let i = 0; i < currentDataSet.length; i++) {
-            buildHTMLforList(currentDataSet[i], `list${i+1}`);
+    if (href.includes('full')) {
+      let runningTotal = 0;
+      for (let i = 0; i < currentDataSet.length; i++) { // [breakfast, lunch, catering]
+        for (let j = 0; j < currentDataSet[i].length; j++) {
+            buildHTMLforList(currentDataSet[i][j], `list${runningTotal+j+1}`);
         }
+        runningTotal += currentDataSet[i].length;
+      }
     } else { // grid
         for (let i = 0; i < currentDataSet.length; i++) {
             buildHTMLforGrid(currentDataSet[i], `list${i+1}`);

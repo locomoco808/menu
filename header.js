@@ -14,7 +14,7 @@ function buildHeader() {
     </div> \
     ';
     if (href.includes('full')) {
-        currentDataSet = breakfast;
+        currentDataSet = menuData;
         element.innerHTML = element.innerHTML.replace("activeFull", "active");
         element.innerHTML = element.innerHTML.replace("activeBreakfast", "");
         element.innerHTML = element.innerHTML.replace("activeLunch", "");
@@ -26,13 +26,13 @@ function buildHeader() {
         element.innerHTML = element.innerHTML.replace("activeLunch", "");
         element.innerHTML = element.innerHTML.replace("activeCatering", "");
     } else if (href.includes('lunch')) {
-        currentDataSet = breakfast;
+        currentDataSet = lunch;
         element.innerHTML = element.innerHTML.replace("activeFull", "");
         element.innerHTML = element.innerHTML.replace("activeBreakfast", "");
         element.innerHTML = element.innerHTML.replace("activeLunch", "active");
         element.innerHTML = element.innerHTML.replace("activeCatering", "");
     } else { // if (href.includes('catering')
-        currentDataSet = breakfast;
+        currentDataSet = catering;
         element.innerHTML = element.innerHTML.replace("activeFull", "");
         element.innerHTML = element.innerHTML.replace("activeBreakfast", "");
         element.innerHTML = element.innerHTML.replace("activeLunch", "");
