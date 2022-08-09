@@ -3,7 +3,7 @@ function buildFooter() {
     let element = document.createElement('div');
     element.innerHTML +=
     '<hr> \
-    <p>The cakes above are available at the following Baskin Robbins locations:</p> \
+    <p>The cakes above are available at the following Loco Moco Drive Inn locations:</p> \
     <details class="myindent1"> \
         <summary>Waipio Shopping Center</summary> \
         <div class="myindent2"> \
