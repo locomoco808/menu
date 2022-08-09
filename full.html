@@ -17,14 +17,17 @@
   <div>
     <div id="header"></div>
     <div id="mainList" style="padding: 2rem">
+      <hr>
+      <h1 class="pageTitle">Full Menu</h1>
+      <hr>
       <div class="ui two column stackable middle aligned grid">
         <div class="column">
-          <h1>Full Menu</h1>
         </div>
         <div class="right floated right aligned column">
           <div id="searchBar"></div>
         </div>
       </div>
+      <br>
       <div id="filteredList"></div>
       <div name="removeIfFilter">
         <div class="ui fluid accordion">
@@ -84,7 +87,7 @@
 <script type="text/javascript">
 buildHeader();
 buildFooter();
-buildSearchBar();
+// buildSearchBar();
 buildHTMLstarter();
 $('.ui.accordion')
 .accordion()

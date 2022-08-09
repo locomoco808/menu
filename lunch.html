@@ -18,9 +18,11 @@
   <div>
     <div id="header"></div>
     <div id="mainList" style="padding: 2rem">
+      <hr>
+      <h1 class="pageTitle">Lunch Menu</h1>
+      <hr>
       <div class="ui two column stackable middle aligned grid">
         <div class="column">
-          <h1>Lunch</h1>
         </div>
         <div class="right floated right aligned column">
           <div id="searchBar"></div>
@@ -30,9 +32,24 @@
       <div id="filteredList"></div>
       <div name="removeIfFilter">
         <h1>Plate Lunch</h1>
+        <div class="ui horizontal segments" style="background-color: transparent; border: none; box-shadow: none;">
+          <div class="ui compact segment mySegment" style="text-align: left;">
+            <span><strong>Regular</strong> - 2 steamed rice & 1 mac salad</span> <br>
+            <span><strong>Mini</strong> - 1 steamed rice & 1 mac salad</span>
+          </div>
+          <div class="ui compact segment mySegment" style="text-align: left;">
+            <span><strong>Tossed Salad</strong> - additional $0.45 per serving</span> <br>
+            <span><strong>Brown Rice</strong> - additional $0.40 per serving</span>
+          </div>
+        </div>
         <div id="list1"></div>
         <br>
         <h1>Combination Plates</h1>
+        <div class="ui compact segment mySegment" style="text-align: left;">
+          <span class="myHeader">Served with 2 steamed rice & 1 mac salad</span> <br>
+          <span><strong>Tossed Salad</strong> - additional $0.45 per serving</span> <br>
+          <span><strong>Brown Rice</strong> - additional $0.40 per serving</span>
+        </div>
         <br>
         <div id="list2"></div>
         <h1>Wok Plates</h1>
@@ -41,7 +58,17 @@
         <h1>Specialties</h1>
         <br>
         <div id="list4"></div>
-        <h1>Sandwiches</h1>
+        <div class="ui two column stackable middle aligned grid">
+          <div class="two wide column">
+            <h1>Sandwiches</h1>
+          </div>
+          <div class="fourteen wide column">
+            <div id="deluxeSegment" class="ui compact segment mySegment" style="padding: 1rem;">
+              <span style="font-weight: 700; font-size: 1.2rem">Make it Deluxe !</span> <br>
+              <span style="font-weight: 600;">$1.75</span>
+            </div>
+          </div>
+        </div>
         <br>
         <div id="list5"></div>
         <h1>Salads</h1>

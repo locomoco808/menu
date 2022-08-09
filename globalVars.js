@@ -61,25 +61,16 @@ function buildHTMLforGrid(data, id) {
     let temp = '<div class="ui five cards stackable centered">';
     for (let i = 0; i < data.length; i++) {
         let desc = '';
-        if (data[i].description.length > 0) { // if there is a description && not grid
-            desc =
-            '<div class="extra content" style="padding: 0.5rem;"> \
-                <p class="ui header">' + data[i].description + '</p> \
-            </div>';
+        if (data[i].description.length > 0) { // if there is a description
+            desc = '<div class="content cardContent">' + data[i].description + '</div>';
         }
         temp +=
         '<div class="ui raised card"> \
-            <a class="image" href="'+ data[i].pic + '"> \
-                <img class="myImage" src="' + data[i].pic +'"> \
-            </a> \
-            <div class="content" style="padding: 0.5rem;"> \
-                <a class="ui header" href="' + data[i].pic+ '">' + data[i].name + '</a> \
-            </div>'
+            <img class="myImage" src="' + data[i].pic +'"> \
+            <div class="content cardContent" style="font-weight: 600;">' + data[i].name + '</div> \
+            <div class="content cardContent" style="font-weight: 600;">' + data[i].price + '</div>'
             + desc +
-            '<div class="extra content" style="padding: 0.5rem;"> \
-                <p class="ui header">' + data[i].price + '</p> \
-             </div> \
-         </div>';
+         '</div>';
     }
     temp += '</div>';
     element.innerHTML = temp;
@@ -93,25 +84,16 @@ function buildHTMLforGrid2Price(data, id) {
     let temp = '<div class="ui five cards stackable centered">';
     for (let i = 0; i < data.length; i++) {
         let desc = '';
-        if (data[i].description.length > 0) { // if there is a description && not grid
-            desc =
-            '<div class="extra content" style="padding: 0.5rem;"> \
-                <p class="ui header">' + data[i].description + '</p> \
-            </div>';
+        if (data[i].description.length > 0) { // if there is a description
+            desc = '<div class="content cardContent">' + data[i].description + '</div>';
         }
         temp +=
         '<div class="ui raised card"> \
-            <a class="image" href="'+ data[i].pic + '"> \
-                <img class="myImage" src="' + data[i].pic +'"> \
-            </a> \
-            <div class="content" style="padding: 0.5rem;"> \
-                <a class="ui header" href="' + data[i].pic+ '">' + data[i].name + '</a> \
-            </div>'
+            <img class="myImage" src="' + data[i].pic +'"> \
+            <div class="content cardContent" style="font-weight: 600;">' + data[i].name + '</div> \
+            <div class="content cardContent" style="font-weight: 600;">Mini ' + data[i].priceMini + ' | Reg ' + data[i].priceReg + '</div>'
             + desc +
-            '<div class="extra content" style="padding: 0.5rem;"> \
-                <p class="ui header">Mini ' + data[i].priceMini + ' | Reg ' + data[i].priceReg + '</p> \
-             </div> \
-         </div>';
+         '</div>';
     }
     temp += '</div>';
     element.innerHTML = temp;
@@ -125,25 +107,16 @@ function buildHTMLforGrid3Price(data, id) {
     let temp = '<div class="ui five cards stackable centered">';
     for (let i = 0; i < data.length; i++) {
         let desc = '';
-        if (data[i].description.length > 0) { // if there is a description && not grid
-            desc =
-            '<div class="extra content" style="padding: 0.5rem;"> \
-                <p class="ui header">' + data[i].description + '</p> \
-            </div>';
+        if (data[i].description.length > 0) { // if there is a description
+            desc = '<div class="content cardContent">' + data[i].description + '</div>';
         }
         temp +=
         '<div class="ui raised card"> \
-            <a class="image" href="'+ data[i].pic + '"> \
-                <img class="myImage" src="' + data[i].pic +'"> \
-            </a> \
-            <div class="content" style="padding: 0.5rem;"> \
-                <a class="ui header" href="' + data[i].pic+ '">' + data[i].name + '</a> \
-            </div>'
+            <img class="myImage" src="' + data[i].pic +'"> \
+            <div class="content cardContent" style="font-weight: 600;">' + data[i].name + '</div> \
+            <div class="content cardContent" style="font-weight: 600;">S ' + data[i].priceSm + ' | M ' + data[i].priceMd + ' | L ' + data[i].priceLg + '</div>'
             + desc +
-            '<div class="extra content" style="padding: 0.5rem;"> \
-                <p class="ui header">S ' + data[i].priceSm + ' | M ' + data[i].priceMd + ' | L ' + data[i].priceLg + '</p> \
-             </div> \
-         </div>';
+         '</div>';
     }
     temp += '</div>';
     element.innerHTML = temp;

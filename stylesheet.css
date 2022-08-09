@@ -2,9 +2,11 @@
 @import url('https://fonts.googleapis.com/css?family=Chivo:900');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 body{
-	font-family: 'Helvetica Neue', Helvetica, Arial, serif;
+	font-family: 'Gothic A1';
 	line-height: 1.5;
 	font-size: 1.25rem;
 	color: #1d140a;
@@ -14,6 +16,14 @@ body{
 	/* padding: 2rem; */
 }
 
+#menuBar {
+	background-color: #2B2B2B;
+	color: #f0f9ff;
+	padding: 0px 1rem;
+	max-height: 4rem;
+	border-radius: 0px;
+}
+
 #footer {
 	background-color: #2B2B2B;
 	color: #f0f9ff;
@@ -21,10 +31,18 @@ body{
 	text-shadow: none !important;
 	padding: 2rem;
 	margin: 0;
+	bottom: 0;
+	width: 100%
+}
+
+.pageTitle {
+	text-align: center;
+	font-family: Sriracha;
+	font-size: 3rem;
 }
 
 h1, a.item {
-	font-family: 'Oxygen';
+	font-family: 'Gothic A1';
 }
 
 a.ui.header {
@@ -82,6 +100,34 @@ hr {
 	background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(100, 69, 37, 0.55), rgba(0, 0, 0, 0));
 }
 
+.cardContent {
+	text-align: center;
+	padding: 0.25rem 0.5rem !important;
+	font-size: 1rem !important;
+	flex-grow: 0 !important;
+}
+
+.mySegment {
+	text-align: center;
+	font-size: 1.1rem !important;
+	background-color: lavenderBlush !important;
+	color: brown !important;
+	border-radius: 4rem !important;
+	margin: 0px 3rem !important;
+	padding: 1rem 2rem !important;
+	border: 2px solid rgba(200, 143, 121, 0.9) !important;
+}
+
+#deluxeSegment {
+	margin-left: 8rem !important;
+}
+
+.phoneOrderSegment {
+	position: absolute !important;
+	margin-left: 2rem !important;
+	/* background-color: aliceBlue !important; */
+}
+
 .paddinglr {
 	padding: 0px 3.3rem !important;
 }
@@ -109,5 +155,9 @@ hr {
 
 	.paddinglr {
 		padding: 0px 6.25rem !important;
+	}
+
+	#deluxeSegment {
+		margin-left: 20rem !important;
 	}
 }

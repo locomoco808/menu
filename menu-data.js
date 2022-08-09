@@ -65,8 +65,8 @@ const lunchComboPlates = [
   { name: "Special Combo Plate w/ 1 choice seafood", price: "$15.55", description: "", pic: "images/breakfast/cat5.png" },
   { name: "Special Combo Plate w/ 2 choice seafood", price: "$15.95", description: "", pic: "images/breakfast/cat5.png" },
   { name: "Special Combo Plate w/ BBQ Shortrib", price: "$17.75", description: "", pic: "images/breakfast/cat5.png" },
-  { name: "Grilled Prime Rib", price: "$15.85", description: "", pic: "images/breakfast/cat5.png" },
-  { name: "Grilled Prime Rib w/ Deep Fried Shrimp", price: "$16.85", description: "", pic: "images/breakfast/cat5.png" },
+  { name: "Grilled New York Steak", price: "$15.85", description: "", pic: "images/breakfast/cat5.png" },
+  { name: "Grilled New York Steak w/ Deep Fried Shrimp", price: "$16.85", description: "", pic: "images/breakfast/cat5.png" },
 ];
 
 const lunchWokPlates = [
@@ -97,7 +97,7 @@ const lunchSandwiches = [
   { name: "Double Cheeseburger", price: "$6.40", description: "", pic: "images/breakfast/cat5.png" },
   { name: "Double BBQ Burger", price: "$6.50", description: "", pic: "images/breakfast/cat5.png" },
   { name: "Double BBQ Cheeseburger", price: "$6.70", description: "", pic: "images/breakfast/cat5.png" },
-  { name: "Make it Deluxe!", price: "$1.75", description: "(additional)", pic: "images/breakfast/cat5.png" },
+  // { name: "Make it Deluxe! (additional)", price: "$1.75", description: "", pic: "images/breakfast/cat5.png" },
 ];
 
 const lunchSalads = [
