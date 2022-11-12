@@ -31,66 +31,183 @@
       <br>
       <div id="filteredList"></div>
       <div name="removeIfFilter">
-        <h1>Plate Lunch</h1>
-        <div class="ui horizontal segments" style="background-color: transparent; border: none; box-shadow: none;">
-          <div class="ui compact segment mySegment" style="text-align: left;">
+        <div id="plateLunchDiv">
+          <h1 style="text-align: center">Plate Lunches</h1>
+          <div class="ui compact segment mySegment">
             <span><strong>Regular</strong> - 2 steamed rice & 1 mac salad</span> <br>
             <span><strong>Mini</strong> - 1 steamed rice & 1 mac salad</span>
           </div>
-          <div class="ui compact segment mySegment" style="text-align: left;">
-            <span><strong>Tossed Salad</strong> - additional $0.45 per serving</span> <br>
-            <span><strong>Brown Rice</strong> - additional $0.40 per serving</span>
-          </div>
-        </div>
-        <div id="list1"></div>
-        <br>
-        <h1>Combination Plates</h1>
-        <div class="ui compact segment mySegment" style="text-align: left;">
-          <span class="myHeader">Served with 2 steamed rice & 1 mac salad</span> <br>
-          <span><strong>Tossed Salad</strong> - additional $0.45 per serving</span> <br>
-          <span><strong>Brown Rice</strong> - additional $0.40 per serving</span>
-        </div>
-        <br>
-        <div id="list2"></div>
-        <h1>Wok Plates</h1>
-        <br>
-        <div id="list3"></div>
-        <h1>Specialties</h1>
-        <br>
-        <div id="list4"></div>
-        <div class="ui two column stackable middle aligned grid">
-          <div class="two wide column">
-            <h1>Sandwiches</h1>
-          </div>
-          <div class="fourteen wide column">
-            <div id="deluxeSegment" class="ui compact segment mySegment" style="padding: 1rem;">
-              <span style="font-weight: 700; font-size: 1.2rem">Make it Deluxe !</span> <br>
-              <span style="font-weight: 600;">$1.75</span>
+          <br>
+          <div class="ui stackable two column relaxed divided grid">
+            <div class="column">
+              <div class="ui grid">
+                <div class="two column row" style="padding-bottom: 0px">
+                  <h2 class="ui left floated center aligned column">$13.99 REGULAR</h2>
+                  <h2 class="ui right floated center aligned column">$9.99 MINI</h2>
+                </div>
+                <div class="two column row" style="padding-top: 0px">
+                  <div class="ui center aligned column">
+                    <!-- <h2>REGULAR $13.99</h2> -->
+                    <ul style="padding: 0px">
+                      <li>Chicken Katsu / Cutlet</li>
+                      <li>Chicken Katsu Curry</li>
+                      <li>Mochiko Chicken</li>
+                      <li>Garlic Chicken</li>
+                    </ul>
+                  </div>
+                  <div class="ui center aligned column">
+                    <!-- <h2>MINI $9.99</h2> -->
+                    <ul style="padding: 0px">
+                      <li>BBQ Chicken</li>
+                      <li>Lemon Chicken</li>
+                      <li>Cold Ginger Chicken</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="column">
+              <div class="ui grid">
+                <div class="two column row" style="padding-bottom: 0px">
+                  <h2 class="ui left floated center aligned column">$14.49 REGULAR</h2>
+                  <h2 class="ui right floated center aligned column">$10.49 MINI</h2>
+                </div>
+                <div class="two column row" style="padding-top: 0px">
+                  <div class="ui center aligned column">
+                    <ul style="padding: 0px">
+                      <li>Loco Moco</li>
+                      <li>Hamburger Steak</li>
+                      <li>Beef Curry / Stew</li>
+                      <li>Breaded Veal Cutlet</li>
+                      <li>Pork Katsu / Cutlet</li>
+                      <li>Sweet & Sour Spare Ribs</li>
+                      <li>Chili Dog Plate</li>
+                      <li>Chili Hamburger Plate</li>
+                    </ul>
+                  </div>
+                  <div class="ui center aligned column">
+                    <ul style="padding: 0px">
+                      <li>Teriyaki Steak</li>
+                      <li>Teriyaki Pork</li>
+                      <li>Shrimp Curry</li>
+                      <li>Deep Fried Fish</li>
+                      <li>Deep Fried Scallop</li>
+                      <li>Garlic Shrimp</li>
+                      <li>Grilled Garlic Fish</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
+          <br>
+          <div id="comboPlatesDiv">
+            <h1 style="text-align: center">Combination Plates</h1>
+            <h2 style="text-align: center">$16.99 REGULAR ONLY</h2>
+            <!-- <div class="ui center aligned container"> -->
+              <div class="ui compact segment mySegment">
+                <span><strong>Regular</strong> - 2 steamed rice & 1 mac salad</span>
+              </div>
+            <!-- </div> -->
+            <br>
+            <div class="ui two column relaxed divided grid">
+              <div class="column" style="padding: 0% 10%">
+                <h2>Mixed Plate</h2>
+                <ul>
+                  <li style="list-style: disc">Hamburger Steak</li>
+                  <li style="list-style: disc">Teriyaki Steak</li>
+                  <li style="list-style: disc">w/ 1 choice of
+                    <ul>
+                      <li style="list-style: disc">Beef Curry</li>
+                      <li style="list-style: disc">Beef Stew</li>
+                      <li style="list-style: disc">Beef Chili</li>
+                    </ul>
+                  </li>
+                </ul>
+                <h2>BBQ Mixed Plate</h2>
+                <ul>
+                  <li style="list-style: disc">BBQ Short Ribs</li>
+                  <li style="list-style: disc">BBQ Chicken</li>
+                  <li style="list-style: disc">Teriyaki Steak</li>
+                </ul>
+              </div>
+              <div class="column" style="padding: 0% 10%">
+                <h2>Seafood Combo</h2>
+                <ul>
+                  <li style="list-style: disc">Deep Fried Fish</li>
+                  <li style="list-style: disc">Deep Fried Shrimp</li>
+                  <li style="list-style: disc">w/ 1 choice of
+                    <ul>
+                      <li style="list-style: disc">BBQ Chicken</li>
+                      <li style="list-style: disc">Teriyaki Steak</li>
+                      <li style="list-style: disc">Teriyaki Pork</li>
+                    </ul>
+                  </li>
+                </ul>
+                <h2>Seafood Platter</h2>
+                <ul>
+                  <li style="list-style: disc">Deep Fried Fish</li>
+                  <li style="list-style: disc">Deep Fried Shrimp</li>
+                  <li style="list-style: disc">Scallops</li>
+                </ul>
+              </div>
+            </div>
+            <br>
+            <br>
+          </div>
+          <div id="wokPlatesDiv">
+            <div class="ui raised text container center aligned segment menuPrice">
+              <h1 style="text-align: center">Wok Plates</h1>
+              <!-- <div id="list0"></div> -->
+              <ul style="padding: 0px">
+                <li>Fried Rice / Chow Mein / Stir Fry Vegetable &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                  <ul>
+                    <li>w/ Beef or Chicken ........................................ $14.99</li>
+                    <li>w/ Shrimp ................................................. $15.99</li>
+                  </ul>
+                </li>
+                <li>Fried Saimin ................................................... $13.99
+                  <ul>
+                    <li>w/ BBQ Chicken or Teri Beef ............................... $14.99</li>
+                  </ul>
+                </li>
+                <li>Bento (Katsu, Teriyaki Steak, Fish, Spam) ...................... $14.99</li>
+              </ul>
+            </div>
+            <br>
+          </div>
+          <div id="sandwichesDiv">
+            <h1 style="text-align: center">Sandwiches</h1>
+            <div class="ui raised text container center aligned segment menuPrice">
+              <div id="list1"></div>
+            </div>
+            <br>
+          </div>
+          <div id="saladsDiv">
+            <h1 style="text-align: center">Salads</h1>
+            <div class="ui raised text container center aligned segment menuPrice">
+              <div id="list2"></div>
+            </div>
+            <br>
+          </div>
+          <div id="sidesDiv">
+            <h1 style="text-align: center">Sides</h1>
+            <div class="ui raised text container center aligned segment menuPrice">
+              <div id="list3"></div>
+            </div>
+            <br>
+          </div>
         </div>
         <br>
-        <div id="list5"></div>
-        <h1>Salads</h1>
-        <br>
-        <div id="list6"></div>
-        <h1>Sides</h1>
-        <br>
-        <div id="list7"></div>
-        <h1>Beverages</h1>
-        <br>
-        <div id="list8"></div>
       </div>
-      <br>
     </div>
-  </div>
-  <div id="footer"></div>
-</body>
-</html>
+    <div id="footer"></div>
+  </body>
+  </html>
 
-<script type="text/javascript">
-buildHeader();
-buildFooter();
-// buildSearchBar();
-buildHTMLstarter();
+  <script type="text/javascript">
+  buildHeader();
+  buildFooter();
+  // buildSearchBar();
+  buildHTMLstarter();
 </script>

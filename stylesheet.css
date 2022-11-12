@@ -4,6 +4,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sriracha:wght@400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cousine:wght@400;700&display=swap');
 
 body{
 	font-family: 'Gothic A1';
@@ -39,6 +41,10 @@ body{
 	text-align: center;
 	font-family: Sriracha;
 	font-size: 3rem;
+}
+
+.menuPrice {
+	font-family: 'Inconsolata' !important;
 }
 
 h1, a.item {
@@ -108,12 +114,12 @@ hr {
 }
 
 .mySegment {
-	text-align: center;
+	text-align: center !important;
 	font-size: 1.1rem !important;
 	background-color: lavenderBlush !important;
 	color: brown !important;
 	border-radius: 4rem !important;
-	margin: 0px 3rem !important;
+	/* margin: 0px 3rem !important; */
 	padding: 1rem 2rem !important;
 	border: 2px solid rgba(200, 143, 121, 0.9) !important;
 }

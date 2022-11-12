@@ -1,3 +1,19 @@
+const lunchPrices = [
+  {reg: "$13.99", mini: "$9.99"},
+  {reg: "$14.49", mini: "$10.49"},
+  {reg: "$16.99", mini: "$16.99"},
+];
+
+const partyPanPrices = [
+  {sm: "$14.99", md: "$24.99", lg: "$34.99"},
+  {sm: "$28.99", md: "$45.99", lg: "$65.99"},
+  {sm: "$34.99", md: "$55.99", lg: "$90.99"},
+  {sm: "$38.99", md: "$61.99", lg: "$90.99"},
+  {sm: "$43.99", md: "$67.99", lg: "$95.99"},
+  {sm: "$55.99", md: "$79.99", lg: "$108.99"},
+  {sm: "$64.99", md: "$93.99", lg: "$122.99"},
+];
+
 const breakfastPlates = [
   { name: "Breakfast Plate", price: "$7.15", description: "(2 eggs, 2 rice, 1 choice of meat)", pic: "images/breakfast/cat5.png" },
   { name: "Omelet", price: "$7.65", description: "(3 eggs, 2 rice, 1 choice of meat)", pic: "images/breakfast/cat5.png" },
@@ -25,63 +41,46 @@ const breakfastSides = [
 ];
 
 const lunchPlates = [
-  { name: "Loco Moco", priceReg: "$13.55", priceMini: "$9.90", description: "", pic: "images/breakfast/cat5.png" },
-  { name: "Chicken Katsu", priceReg: "$13.95", priceMini: "$9.50", description: "", pic: "images/breakfast/cat5.png" },
-  { name: "Chicken Katsu Curry", priceReg: "$13.95", priceMini: "$9.50", description: "", pic: "images/breakfast/cat5.png" },
-  { name: "Mochiko Chicken", priceReg: "$13.95", priceMini: "$9.50", description: "", pic: "images/breakfast/cat5.png" },
-  { name: "BBQ Chicken", priceReg: "$13.95", priceMini: "$9.50", description: "", pic: "images/breakfast/cat5.png" },
-  { name: "Garlic Chicken", priceReg: "$13.95", priceMini: "$9.50", description: "", pic: "images/breakfast/cat5.png" },
-  { name: "Lemon Chicken", priceReg: "$13.95", priceMini: "$9.50", description: "", pic: "images/breakfast/cat5.png" },
-  { name: "Cold Ginger Chicken", priceReg: "$13.95", priceMini: "$9.50", description: "", pic: "images/breakfast/cat5.png" },
+  { name: "Chicken Katsu / Cutlet", priceReg: lunchPrices[0].reg, priceMini: lunchPrices[0].mini, description: "", pic: "images/breakfast/cat5.png" },
+  { name: "Chicken Katsu Curry", priceReg: lunchPrices[0].reg, priceMini: lunchPrices[0].mini, description: "", pic: "images/breakfast/cat5.png" },
+  { name: "BBQ Chicken", priceReg: lunchPrices[0].reg, priceMini: lunchPrices[0].mini, description: "", pic: "images/breakfast/cat5.png" },
+  { name: "Mochiko Chicken", priceReg: lunchPrices[0].reg, priceMini: lunchPrices[0].mini, description: "", pic: "images/breakfast/cat5.png" },
+  { name: "Garlic Chicken", priceReg: lunchPrices[0].reg, priceMini: lunchPrices[0].mini, description: "", pic: "images/breakfast/cat5.png" },
+  { name: "Lemon Chicken", priceReg: lunchPrices[0].reg, priceMini: lunchPrices[0].mini, description: "", pic: "images/breakfast/cat5.png" },
+  { name: "Cold Ginger Chicken", priceReg: lunchPrices[0].reg, priceMini: lunchPrices[0].mini, description: "", pic: "images/breakfast/cat5.png" },
 
-  { name: "Chili Dog Plate", priceReg: "$14.05", priceMini: "$9.60", description: "", pic: "images/breakfast/cat5.png" },
-  { name: "Chili Hamburger Plate", priceReg: "$14.05", priceMini: "$9.60", description: "", pic: "images/breakfast/cat5.png" },
-  { name: "Sweet & Sour Spareribs", priceReg: "$14.05", priceMini: "$9.60", description: "", pic: "images/breakfast/cat5.png" },
-
-  { name: "Hamburger Steak", priceReg: "$14.25", priceMini: "$9.80", description: "", pic: "images/breakfast/cat5.png" },
-  { name: "Beef Curry", priceReg: "$14.25", priceMini: "$9.80", description: "", pic: "images/breakfast/cat5.png" },
-  { name: "Beef Stew", priceReg: "$14.25", priceMini: "$9.80", description: "", pic: "images/breakfast/cat5.png" },
-  { name: "Breaded Veal Cutlet", priceReg: "$14.25", priceMini: "$9.80", description: "", pic: "images/breakfast/cat5.png" },
-  { name: "Pork Katsu", priceReg: "$14.25", priceMini: "$9.80", description: "", pic: "images/breakfast/cat5.png" },
-  { name: "Teriyaki Pork", priceReg: "$14.25", priceMini: "$9.80", description: "", pic: "images/breakfast/cat5.png" },
-  { name: "Teriyaki Steak", priceReg: "$14.25", priceMini: "$9.80", description: "", pic: "images/breakfast/cat5.png" },
-  { name: "Shrimp Curry", priceReg: "$14.45", priceMini: "$9.90", description: "", pic: "images/breakfast/cat5.png" },
-  { name: "Deep Fried Shrimp", priceReg: "$14.20", priceMini: "$10.40", description: "", pic: "images/breakfast/cat5.png" },
-
-  { name: "Deep Fried Fish", priceReg: "$14.75", priceMini: "$10.20", description: "", pic: "images/breakfast/cat5.png" },
-  { name: "Garlic Shrimp", priceReg: "$14.95", priceMini: "$10.10", description: "", pic: "images/breakfast/cat5.png" },
-  { name: "Grilled Garlic Fish", priceReg: "$14.95", priceMini: "$10.10", description: "", pic: "images/breakfast/cat5.png" },
-  { name: "Grilled Salmon", priceReg: "$16.70", priceMini: "$10.10", description: "", pic: "images/breakfast/cat5.png" },
-  { name: "BBQ Shortribs", priceReg: "$17.55", priceMini: "$13.00", description: "", pic: "images/breakfast/cat5.png" },
+  { name: "Loco Moco", priceReg: lunchPrices[1].reg, priceMini: lunchPrices[1].mini, description: "", pic: "images/breakfast/cat5.png" },
+  { name: "Hamburger Steak", priceReg: lunchPrices[1].reg, priceMini: lunchPrices[1].mini, description: "", pic: "images/breakfast/cat5.png" },
+  { name: "Beef Curry / Stew", priceReg: lunchPrices[1].reg, priceMini: lunchPrices[1].mini, description: "", pic: "images/breakfast/cat5.png" },
+  { name: "Breaded Veal Cutlet", priceReg: lunchPrices[1].reg, priceMini: lunchPrices[1].mini, description: "", pic: "images/breakfast/cat5.png" },
+  { name: "Pork Katsu / Curry", priceReg: lunchPrices[1].reg, priceMini: lunchPrices[1].mini, description: "", pic: "images/breakfast/cat5.png" },
+  { name: "Sweet & Sour Spare Ribs", priceReg: lunchPrices[1].reg, priceMini: lunchPrices[1].mini, description: "", pic: "images/breakfast/cat5.png" },
+  { name: "Chili Dog Plate", priceReg: lunchPrices[1].reg, priceMini: lunchPrices[1].mini, description: "", pic: "images/breakfast/cat5.png" },
+  { name: "Chili Hamburger Plate", priceReg: lunchPrices[1].reg, priceMini: lunchPrices[1].mini, description: "", pic: "images/breakfast/cat5.png" },
+  { name: "Teriyaki Steak", priceReg: lunchPrices[1].reg, priceMini: lunchPrices[1].mini, description: "", pic: "images/breakfast/cat5.png" },
+  { name: "Teriyaki Pork", priceReg: lunchPrices[1].reg, priceMini: lunchPrices[1].mini, description: "", pic: "images/breakfast/cat5.png" },
+  { name: "Shrimp Curry", priceReg: lunchPrices[1].reg, priceMini: lunchPrices[1].mini, description: "", pic: "images/breakfast/cat5.png" },
+  { name: "Deep Fried Fish", priceReg: lunchPrices[1].reg, priceMini: lunchPrices[1].mini, description: "", pic: "images/breakfast/cat5.png" },
+  { name: "Deep Fried Scallop", priceReg: lunchPrices[1].reg, priceMini: lunchPrices[1].mini, description: "", pic: "images/breakfast/cat5.png" },
+  { name: "Garlic Shrimp", priceReg: lunchPrices[1].reg, priceMini: lunchPrices[1].mini, description: "", pic: "images/breakfast/cat5.png" },
+  { name: "Grilled Garlic Fish", priceReg: lunchPrices[1].reg, priceMini: lunchPrices[1].mini, description: "", pic: "images/breakfast/cat5.png" },
 ];
 
 const lunchComboPlates = [
-  { name: "Mixed Plate", price: "$14.85", description: "(Hamburger Steak & Teriyaki Steak w/ 1 choice of Beef Curry, Beef Stew, or Chili)", pic: "images/breakfast/cat5.png" },
-  { name: "BBQ Mixed Plate", price: "$16.85", description: "(BBQ Shortrib, BBQ Chicken, & Teriyaki Steak)", pic: "images/breakfast/cat5.png" },
-  { name: "Seafood Combo", price: "$15.90", description: "(Deep Fried Fish & Deep Fried Shimp w/ 1 choice of BBQ Chicken, Teriyaki Steak, or Teriyaki Pork)", pic: "images/breakfast/cat5.png" },
-  { name: "Seafood Combo w/ BBQ Shortrib", price: "$18.80", description: "(Deep Fried Fish & Deep Fried Shimp w/ BBQ Shortrib)", pic: "images/breakfast/cat5.png" },
-  { name: "Seafood Platter", price: "$16.35", description: "(Deep Fried Fish, Deep Fried Shrimp, & Scallops)", pic: "images/breakfast/cat5.png" },
-  { name: "Special Combo Plate", price: "$14.85", description: "(any 2 choices of plate lunch)", pic: "images/breakfast/cat5.png" },
-  { name: "Special Combo Plate w/ 1 choice seafood", price: "$15.55", description: "", pic: "images/breakfast/cat5.png" },
-  { name: "Special Combo Plate w/ 2 choice seafood", price: "$15.95", description: "", pic: "images/breakfast/cat5.png" },
-  { name: "Special Combo Plate w/ BBQ Shortrib", price: "$17.75", description: "", pic: "images/breakfast/cat5.png" },
-  { name: "Grilled New York Steak", price: "$15.85", description: "", pic: "images/breakfast/cat5.png" },
-  { name: "Grilled New York Steak w/ Deep Fried Shrimp", price: "$16.85", description: "", pic: "images/breakfast/cat5.png" },
-];
+  { name: "Mixed Plate", price: lunchPrices[2].reg, description: "(Hamburger Steak & Teriyaki Steak w/ 1 choice of Beef Curry, Beef Stew, or Chili)", pic: "images/breakfast/cat5.png" },
+  { name: "BBQ Mixed Plate", price: lunchPrices[2].reg, description: "(BBQ Shortrib, BBQ Chicken, & Teriyaki Steak)", pic: "images/breakfast/cat5.png" },
+  { name: "Seafood Combo", price: lunchPrices[2].reg, description: "(Deep Fried Fish & Deep Fried Shimp w/ 1 choice of BBQ Chicken, Teriyaki Steak, or Teriyaki Pork)", pic: "images/breakfast/cat5.png" },
+  { name: "Seafood Platter", price: lunchPrices[2].reg, description: "(Deep Fried Fish, Deep Fried Shrimp, & Scallops)", pic: "images/breakfast/cat5.png" },
+  { name: "Special Combo Plate", price: lunchPrices[2].reg, description: "(any 2 choices of plate lunch)", pic: "images/breakfast/cat5.png" },
+  ];
 
 const lunchWokPlates = [
-  { name: "Fried Rice or Chow Mein or Stir Fry Vegetable w/ Beef or Chicken", price: "$14.75", description: "", pic: "images/breakfast/cat5.png" },
-  { name: "Fried Rice or Chow Mein or Stir Fry Vegetable w/ Shrimp", price: "$15.75", description: "", pic: "images/breakfast/cat5.png" },
-  { name: "Vegetarian Stir Fry", price: "$14.75", description: "", pic: "images/breakfast/cat5.png" },
-  { name: "Chopped Steak", price: "$15.05", description: "", pic: "images/breakfast/cat5.png" },
+  { name: "Fried Rice / Chow Mein / Stir Fry Vegetable w/ Beef or Chicken", price: "$14.99", description: "", pic: "images/breakfast/cat5.png" },
+  { name: "Fried Rice / Chow Mein / Stir Fry Vegetable w/ Shrimp", price: "$15.99", description: "", pic: "images/breakfast/cat5.png" },
+  { name: "Fried Saimin", price: "$13.99", description: "", pic: "images/breakfast/cat5.png" },
+  { name: "Fried Saimin w/ BBQ Chicken or Teri Beef", price: "$14.99", description: "", pic: "images/breakfast/cat5.png" },
+  { name: "Bento (Katsu, Teriyaki Steak, Fish, Spam)", price: "$14.99", description: "", pic: "images/breakfast/cat5.png" },
 ];
-
-const lunchSpecialties = [
-  { name: "Bento", price: "$14.45", description: "(Katsu, Teriyaki Steak, Fish, Spam)", pic: "images/breakfast/cat5.png" },
-  { name: "Fried Saimin", price: "$13.00", description: "", pic: "images/breakfast/cat5.png" },
-  { name: "Fried Saimin w/ BBQ Chicken or Teri Beef", price: "$14.25", description: "", pic: "images/breakfast/cat5.png" },
-];
-
 
 const lunchSandwiches = [
   { name: "Homemade Hamburger", price: "$5.10", description: "", pic: "images/breakfast/cat5.png" },
@@ -92,74 +91,67 @@ const lunchSandwiches = [
   { name: "Katsu Burger", price: "$6.20", description: "", pic: "images/breakfast/cat5.png" },
   { name: "Teri Beef Sandwich", price: "$6.20", description: "", pic: "images/breakfast/cat5.png" },
   { name: "Fish Sandwich", price: "$6.50", description: "", pic: "images/breakfast/cat5.png" },
-  { name: "Shrimp Burger", price: "$6.80", description: "", pic: "images/breakfast/cat5.png" },
   { name: "Double Hamburger", price: "$6.20", description: "", pic: "images/breakfast/cat5.png" },
   { name: "Double Cheeseburger", price: "$6.40", description: "", pic: "images/breakfast/cat5.png" },
   { name: "Double BBQ Burger", price: "$6.50", description: "", pic: "images/breakfast/cat5.png" },
   { name: "Double BBQ Cheeseburger", price: "$6.70", description: "", pic: "images/breakfast/cat5.png" },
-  // { name: "Make it Deluxe! (additional)", price: "$1.75", description: "", pic: "images/breakfast/cat5.png" },
+  { name: "Deluxe (lettuce, onion, tomato)", price: "+$1.75", description: "", pic: "images/breakfast/cat5.png" },
 ];
 
 const lunchSalads = [
-  { name: "Macaroni Salad", price: "$4.25", description: "", pic: "images/breakfast/cat5.png" },
-  { name: "Tossed Green Salad", price: "$7.50", description: "", pic: "images/breakfast/cat5.png" },
-  { name: "Oriental Chinese Chicken Salad", price: "$14.50", description: "", pic: "images/breakfast/cat5.png" },
-  { name: "Grilled Chicken Salad", price: "$15.20", description: "", pic: "images/breakfast/cat5.png" },
-  { name: "Grilled Salmon Salad", price: "$16.55", description: "", pic: "images/breakfast/cat5.png" },
-  { name: "Shrimp Salad", price: "$16.55", description: "", pic: "images/breakfast/cat5.png" },
+  { name: "Tossed Green Salad", price: "$9.99", description: "", pic: "images/breakfast/cat5.png" },
+  { name: "Oriental Chinese Chicken Salad", price: "$14.99", description: "", pic: "images/breakfast/cat5.png" },
+  { name: "Grilled Chicken Salad", price: "$16.99", description: "", pic: "images/breakfast/cat5.png" },
+  { name: "Grilled Salmon Salad", price: "$16.99", description: "", pic: "images/breakfast/cat5.png" },
+  { name: "Shrimp Salad", price: "$16.99", description: "", pic: "images/breakfast/cat5.png" },
 ];
 
 const lunchSides = [
   { name: "Steamed Rice", price: "$2.10", description: "", pic: "images/breakfast/cat5.png" },
   { name: "Brown Rice", price: "$2.35", description: "", pic: "images/breakfast/cat5.png" },
+  { name: "Macaroni Salad", price: "$2.35", description: "", pic: "images/breakfast/cat5.png" },
   { name: "French Fries", price: "$4.50", description: "", pic: "images/breakfast/cat5.png" },
   { name: "Onion Rings", price: "$4.90", description: "", pic: "images/breakfast/cat5.png" },
   { name: "Chili Fries", price: "$6.50", description: "", pic: "images/breakfast/cat5.png" },
   { name: "Saimin", price: "$5.45", description: "", pic: "images/breakfast/cat5.png" },
   { name: "Teri Beef Saimin", price: "$8.25", description: "", pic: "images/breakfast/cat5.png" },
-  { name: "Beef Curry Bowl / Stew Bowl / Chili Bowl", price: "$9.05", description: "", pic: "images/breakfast/cat5.png" },
+  { name: "Beef Curry Bowl / Stew Bowl / Chili Bowl", price: "$9.99", description: "", pic: "images/breakfast/cat5.png" },
   { name: "Won Ton Mein", price: "$8.60", description: "", pic: "images/breakfast/cat5.png" },
   { name: "Won Ton Soup", price: "$9.10", description: "", pic: "images/breakfast/cat5.png" },
 ];
 
-const beverages = [
-  { name: "Small", price: "$2.35", description: "", pic: "images/breakfast/cat5.png" },
-  { name: "Medium", price: "$2.59", description: "", pic: "images/breakfast/cat5.png" },
-  { name: "Large", price: "$2.99", description: "", pic: "images/breakfast/cat5.png" },
-  { name: "Hot Coffee or Tea", price: "$2.25", description: "", pic: "images/breakfast/cat5.png" },
-  { name: "Slushie (small)", price: "$4.55", description: "", pic: "images/breakfast/cat5.png" },
-  { name: "Slushie (large)", price: "$5.55", description: "", pic: "images/breakfast/cat5.png" },
-];
-
 const partyPans = [
-  { name: "Steamed Rice", priceSm: "$21.95", priceMd:"$37.95", priceLg: "$53.95", description: "", pic: "images/breakfast/cat5.png" },
-  { name: "Macaroni Salad", priceSm: "$28.95", priceMd:"$45.95", priceLg: "$65.95", description: "", pic: "images/breakfast/cat5.png" },
-  { name: "Tossed Salad", priceSm: "$28.95", priceMd:"$45.95", priceLg: "$65.95", description: "", pic: "images/breakfast/cat5.png" },
+  { name: "Steamed Rice", priceSm: partyPanPrices[0].sm, priceMd: partyPanPrices[0].md, priceLg: partyPanPrices[0].lg, description: "", pic: "images/breakfast/cat5.png" },
 
-  { name: "Oriental Chicken Salad", priceSm: "$34.95", priceMd:"$55.95", priceLg: "$90.95", description: "", pic: "images/breakfast/cat5.png" },
-  { name: "Chicken Katsu", priceSm: "$34.95", priceMd:"$55.95", priceLg: "$90.95", description: "", pic: "images/breakfast/cat5.png" },
-  { name: "Mochiko Chicken", priceSm: "$34.95", priceMd:"$55.95", priceLg: "$90.95", description: "", pic: "images/breakfast/cat5.png" },
-  { name: "BBQ Chicken", priceSm: "$34.95", priceMd:"$55.95", priceLg: "$90.95", description: "", pic: "images/breakfast/cat5.png" },
-  { name: "Garlic Chicken", priceSm: "$34.95", priceMd:"$55.95", priceLg: "$90.95", description: "", pic: "images/breakfast/cat5.png" },
-  { name: "Lemon Chicken", priceSm: "$34.95", priceMd:"$55.95", priceLg: "$90.95", description: "", pic: "images/breakfast/cat5.png" },
-  { name: "Cold Ginger Chicken", priceSm: "$34.95", priceMd:"$55.95", priceLg: "$90.95", description: "", pic: "images/breakfast/cat5.png" },
+  { name: "Macaroni Salad", priceSm: partyPanPrices[1].sm, priceMd: partyPanPrices[1].md, priceLg: partyPanPrices[1].lg, description: "", pic: "images/breakfast/cat5.png" },
+  { name: "Tossed Salad", priceSm: partyPanPrices[1].sm, priceMd: partyPanPrices[1].md, priceLg: partyPanPrices[1].lg, description: "", pic: "images/breakfast/cat5.png" },
 
-  { name: "Chicken Chow Mein (Wet or Dry)", priceSm: "$38.95", priceMd:"$61.95", priceLg: "$88.95", description: "", pic: "images/breakfast/cat5.png" },
-  { name: "Fried Saimin", priceSm: "$38.95", priceMd:"$61.95", priceLg: "$88.95", description: "", pic: "images/breakfast/cat5.png" },
-  { name: "Chicken Fried Rice", priceSm: "$38.95", priceMd:"$61.95", priceLg: "$88.95", description: "", pic: "images/breakfast/cat5.png" },
-  { name: "Chicken Vegetable", priceSm: "$40.95", priceMd:"$63.95", priceLg: "$91.95", description: "", pic: "images/breakfast/cat5.png" },
-  { name: "Teriyaki Pork or Teriyaki Beef", priceSm: "$42.95", priceMd:"$66.95", priceLg: "$94.95", description: "", pic: "images/breakfast/cat5.png" },
-  { name: "Beef Stew or Beef Curry", priceSm: "$42.95", priceMd:"$66.95", priceLg: "$94.95", description: "", pic: "images/breakfast/cat5.png" },
-  { name: "Sweet & Sour Spareribs", priceSm: "$42.95", priceMd:"$66.95", priceLg: "$94.95", description: "", pic: "images/breakfast/cat5.png" },
-  { name: "Shrimp Fried Rice", priceSm: "$43.95", priceMd:"$67.95", priceLg: "$95.95", description: "", pic: "images/breakfast/cat5.png" },
-  { name: "Beef Broccoli", priceSm: "$54.95", priceMd:"$78.95", priceLg: "$106.95", description: "", pic: "images/breakfast/cat5.png" },
-  { name: "Shrimp Vegetable", priceSm: "$55.95", priceMd:"$79.95", priceLg: "$108.95", description: "", pic: "images/breakfast/cat5.png" },
-  { name: "BBQ Shortrib", priceSm: "$65.00", priceMd:"$94.00", priceLg: "$123.00", description: "", pic: "images/breakfast/cat5.png" },
+  { name: "Chicken Katsu", priceSm: partyPanPrices[2].sm, priceMd: partyPanPrices[2].md, priceLg: partyPanPrices[2].lg, description: "", pic: "images/breakfast/cat5.png" },
+  { name: "BBQ Chicken", priceSm: partyPanPrices[2].sm, priceMd: partyPanPrices[2].md, priceLg: partyPanPrices[2].lg, description: "", pic: "images/breakfast/cat5.png" },
+  { name: "Mochiko Chicken", priceSm: partyPanPrices[2].sm, priceMd: partyPanPrices[2].md, priceLg: partyPanPrices[2].lg, description: "", pic: "images/breakfast/cat5.png" },
+  { name: "Garlic Chicken", priceSm: partyPanPrices[2].sm, priceMd: partyPanPrices[2].md, priceLg: partyPanPrices[2].lg, description: "", pic: "images/breakfast/cat5.png" },
+  { name: "Lemon Chicken", priceSm: partyPanPrices[2].sm, priceMd: partyPanPrices[2].md, priceLg: partyPanPrices[2].lg, description: "", pic: "images/breakfast/cat5.png" },
+  { name: "Cold Ginger Chicken", priceSm: partyPanPrices[2].sm, priceMd: partyPanPrices[2].md, priceLg: partyPanPrices[2].lg, description: "", pic: "images/breakfast/cat5.png" },
+  { name: "Oriental Chicken Salad", priceSm: partyPanPrices[2].sm, priceMd: partyPanPrices[2].md, priceLg: partyPanPrices[2].lg, description: "", pic: "images/breakfast/cat5.png" },
 
+  { name: "Fried Saimin", priceSm: partyPanPrices[3].sm, priceMd: partyPanPrices[3].md, priceLg: partyPanPrices[3].lg, description: "", pic: "images/breakfast/cat5.png" },
+  { name: "Chicken Fried Rice", priceSm: partyPanPrices[3].sm, priceMd: partyPanPrices[3].md, priceLg: partyPanPrices[3].lg, description: "", pic: "images/breakfast/cat5.png" },
+  { name: "Chicken Chow Mein (Wet or Dry)", priceSm: partyPanPrices[3].sm, priceMd: partyPanPrices[3].md, priceLg: partyPanPrices[3].lg, description: "", pic: "images/breakfast/cat5.png" },
+
+  { name: "Teriyaki Beef", priceSm: partyPanPrices[4].sm, priceMd: partyPanPrices[4].md, priceLg: partyPanPrices[4].lg, description: "", pic: "images/breakfast/cat5.png" },
+  { name: "Teriyaki Pork", priceSm: partyPanPrices[4].sm, priceMd: partyPanPrices[4].md, priceLg: partyPanPrices[4].lg, description: "", pic: "images/breakfast/cat5.png" },
+  { name: "Beef Curry", priceSm: partyPanPrices[4].sm, priceMd: partyPanPrices[4].md, priceLg: partyPanPrices[4].lg, description: "", pic: "images/breakfast/cat5.png" },
+  { name: "Beef Stew", priceSm: partyPanPrices[4].sm, priceMd: partyPanPrices[4].md, priceLg: partyPanPrices[4].lg, description: "", pic: "images/breakfast/cat5.png" },
+  { name: "Sweet & Sour Spare Ribs", priceSm: partyPanPrices[4].sm, priceMd: partyPanPrices[4].md, priceLg: partyPanPrices[4].lg, description: "", pic: "images/breakfast/cat5.png" },
+  { name: "Shrimp Fried Rice", priceSm: partyPanPrices[4].sm, priceMd: partyPanPrices[4].md, priceLg: partyPanPrices[4].lg, description: "", pic: "images/breakfast/cat5.png" },
+
+  { name: "Beef Broccoli", priceSm: partyPanPrices[5].sm, priceMd: partyPanPrices[5].md, priceLg: partyPanPrices[5].lg, description: "", pic: "images/breakfast/cat5.png" },
+  { name: "BBQ Short Ribs", priceSm: partyPanPrices[6].sm, priceMd: partyPanPrices[6].md, priceLg: partyPanPrices[6].lg, description: "", pic: "images/breakfast/cat5.png" },
 ];
 
 const breakfast = [breakfastPlates, breakfastSandwiches, breakfastSides];
-const lunch = [lunchPlates, lunchComboPlates, lunchWokPlates, lunchSpecialties, lunchSandwiches, lunchSalads, lunchSides, beverages];
+const lunch = [lunchPlates, lunchComboPlates, lunchWokPlates, lunchSandwiches, lunchSalads, lunchSides];
+// const lunch = [lunchSandwiches, lunchSalads, lunchSides];
 const catering = [partyPans];
 
 const menuData = [breakfast, lunch, catering];

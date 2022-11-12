@@ -1,5 +1,20 @@
 let currentDataSet = [];
 
+function buildHTMLforMenuPriceList(data, id) {
+    let list = document.getElementById(id);
+    let element = document.createElement('ul');
+    element.style.padding = '0px';
+    for (let i = 0; i < data.length; i++) {
+        let placeholder = '......................................................................';
+        let itemName = data[i].name;
+        let itemPrice = data[i].price;
+        placeholder = placeholder.substring(itemName.length + itemPrice.length + 2);
+        let finalStr = itemName + ' ' + placeholder + ' ' + itemPrice;
+        element.innerHTML += '<li>' + finalStr + '</li>';
+    }
+    list.appendChild(element);
+}
+
 function buildHTMLforList(data, id) {
     let list = document.getElementById(id);
     let element = document.createElement('ul');
@@ -125,6 +140,7 @@ function buildHTMLforGrid3Price(data, id) {
 
 function buildHTMLstarter() {
     let href = window.location.href;
+    console.log(currentDataSet);
     if (href.includes('full')) {
       let runningTotal = 0;
       for (let i = 0; i < currentDataSet.length; i++) { // [breakfast, lunch, catering]
@@ -140,9 +156,12 @@ function buildHTMLstarter() {
         runningTotal += currentDataSet[i].length;
       }
     } else if (href.includes('lunch')) {
-      buildHTMLforGrid2Price(currentDataSet[0], `list${1}`);
-      for (let i = 1; i < currentDataSet.length; i++) {
-          buildHTMLforGrid(currentDataSet[i], `list${i+1}`);
+      // buildHTMLforGrid2Price(currentDataSet[0], `list${1}`);
+      // for (let i = 1; i < currentDataSet.length; i++) {
+      //     buildHTMLforGrid(currentDataSet[i], `list${i+1}`);
+      // }
+      for (let i = 3; i < currentDataSet.length; i++) {
+          buildHTMLforMenuPriceList(currentDataSet[i], `list${i-2}`);
       }
     } else if (href.includes('catering')) {
       for (let i = 0; i < currentDataSet.length; i++) {
