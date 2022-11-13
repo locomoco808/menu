@@ -45,10 +45,15 @@ body{
 
 .menuPrice {
 	font-family: 'Inconsolata' !important;
+	font-size: 1.25rem !important;
 }
 
-h1, a.item {
+h1, h2, h3, a.item {
 	font-family: 'Gothic A1';
+}
+
+h1 {
+	font-size: 2.3rem;
 }
 
 a.ui.header {
@@ -69,6 +74,14 @@ p.ui.header {
 
 .biggerfont {
 	font-size: 150%;
+}
+
+.biggerfont2 {
+	font-size: 1.25rem !important;
+}
+
+.biggerfont3 {
+	font-size: 1.6rem !important;
 }
 
 .red {
@@ -159,8 +172,35 @@ hr {
 		color: #1d140a !important;
 	}
 
+	h2 {
+		font-size: 2.25rem;
+	}
+
+	h3 {
+		font-size: 1.75rem;
+	}
+
+	.pageTitle {
+		font-size: 4.2rem;
+	}
+
+	.biggerfont2 {
+		font-size: 1.5rem !important;
+	}
+
+	.biggerfont3 {
+		font-size: 1.8rem !important;
+	}
+
 	.paddinglr {
 		padding: 0px 6.25rem !important;
+	}
+
+	.menuPrice {
+		font-family: 'Inconsolata' !important;
+		font-size: 1.75rem !important;
+		max-width: none !important;
+		width: 90% !important;
 	}
 
 	#deluxeSegment {
