@@ -9,8 +9,7 @@
   <script type="text/javascript" src="menu-data.js"></script>
   <script type="text/javascript" src="globalVars.js"></script>
   <script type="text/javascript" src="header.js"></script>
-  <script type="text/javascript" src="footer.js"></script>
-  <script type="text/javascript" src="searchBar.js"></script>
+  <script type="text/javascript" src="htmlStrings.js"></script>
   <link rel="stylesheet" href="stylesheet.css">
 </head>
 <body>
@@ -20,68 +19,38 @@
       <hr>
       <h1 class="pageTitle">Full Menu</h1>
       <hr>
-      <div class="ui two column stackable middle aligned grid">
-        <div class="column">
-        </div>
-        <div class="right floated right aligned column">
-          <div id="searchBar"></div>
-        </div>
-      </div>
       <br>
-      <div id="filteredList"></div>
-      <div name="removeIfFilter">
-        <div class="ui fluid accordion">
-          <div class="title">
-            <h1><i class="dropdown icon"></i> Breakfast Menu (til 12 pm)</h1>
-          </div>
-          <div class="content paddinglr">
-            <h1>Breakfast Plates</h1>
-            <div id="list1"></div>
-            <h1>Breakfast Sandwiches</h1>
-            <div id="list2"></div>
-            <h1>Breakfast Side Orders</h1>
-            <div id="list3"></div>
-          </div>
+      <div class="ui fluid accordion">
+        <div id="lunchDiv">
           <div class="title">
             <h1><i class="dropdown icon"></i> Lunch Menu</h1>
           </div>
           <div class="content paddinglr">
-            <h1>Plate Lunch</h1>
-            <div id="list4"></div>
-            <h1>Combination Plates</h1>
-            <div id="list5"></div>
-            <h1>Wok Plates</h1>
-            <div id="list6"></div>
-            <h1>Sandwiches</h1>
-            <div id="list7"></div>
-            <h1>Salads</h1>
-            <div id="list8"></div>
-            <h1>Sides</h1>
-            <div id="list9"></div>
+            <div id="lunchContent"></div>
           </div>
+        </div>
+        <div id="cateringDiv">
           <div class="title">
             <h1><i class="dropdown icon"></i> Catering</h1>
           </div>
           <div class="content paddinglr">
-            <h1>Party Pans</h1>
-            <div id="list10"></div>
+            <div id="cateringContent"></div>
           </div>
         </div>
       </div>
       <br>
       <br>
     </div>
+    <div id="footer"></div>
   </div>
-  <div id="footer"></div>
 </body>
 </html>
 
 <script type="text/javascript">
 buildHeader();
-buildFooter();
-// buildSearchBar();
+buildHTMLBasic('footer', footerText);
+buildHTMLBasic('lunchContent', lunchContentText);
+buildHTMLBasic('cateringContent', cateringContentText);
 buildHTMLstarter();
-$('.ui.accordion')
-.accordion()
-;
+$('.ui.accordion').accordion();
 </script>

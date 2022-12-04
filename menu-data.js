@@ -7,7 +7,7 @@ const lunchPrices = [
 const partyPanPrices = [
   {sm: "$14.99", md: "$24.99", lg: "$34.99"},
   {sm: "$28.99", md: "$45.99", lg: "$65.99"},
-  {sm: "$34.99", md: "$55.99", lg: "$90.99"},
+  {sm: "$34.99", md: "$55.99", lg: "$80.99"},
   {sm: "$38.99", md: "$61.99", lg: "$90.99"},
   {sm: "$43.99", md: "$67.99", lg: "$95.99"},
   {sm: "$55.99", md: "$79.99", lg: "$108.99"},
@@ -83,18 +83,18 @@ const lunchWokPlates = [
 ];
 
 const lunchSandwiches = [
-  { name: "Homemade Hamburger", price: "$5.10", description: "", pic: "images/breakfast/cat5.png" },
-  { name: "Cheeseburger", price: "$5.40", description: "", pic: "images/breakfast/cat5.png" },
-  { name: "BBQ Burger", price: "$5.70", description: "", pic: "images/breakfast/cat5.png" },
-  { name: "BBQ Cheeseburger", price: "$6.00", description: "", pic: "images/breakfast/cat5.png" },
-  { name: "BBQ Chicken Sandwich", price: "$6.20", description: "", pic: "images/breakfast/cat5.png" },
-  { name: "Katsu Burger", price: "$6.20", description: "", pic: "images/breakfast/cat5.png" },
-  { name: "Teri Beef Sandwich", price: "$6.20", description: "", pic: "images/breakfast/cat5.png" },
-  { name: "Fish Sandwich", price: "$6.50", description: "", pic: "images/breakfast/cat5.png" },
-  { name: "Double Hamburger", price: "$6.20", description: "", pic: "images/breakfast/cat5.png" },
-  { name: "Double Cheeseburger", price: "$6.40", description: "", pic: "images/breakfast/cat5.png" },
-  { name: "Double BBQ Burger", price: "$6.50", description: "", pic: "images/breakfast/cat5.png" },
-  { name: "Double BBQ Cheeseburger", price: "$6.70", description: "", pic: "images/breakfast/cat5.png" },
+  { name: "Homemade Hamburger", price: "$5.75", description: "", pic: "images/breakfast/cat5.png" },
+  { name: "Cheeseburger", price: "$6.50", description: "", pic: "images/breakfast/cat5.png" },
+  { name: "BBQ Burger", price: "$5.75", description: "", pic: "images/breakfast/cat5.png" },
+  { name: "BBQ Cheeseburger", price: "$6.50", description: "", pic: "images/breakfast/cat5.png" },
+  { name: "BBQ Chicken Sandwich", price: "$6.99", description: "", pic: "images/breakfast/cat5.png" },
+  { name: "Katsu Burger", price: "$6.99", description: "", pic: "images/breakfast/cat5.png" },
+  { name: "Teri Beef Sandwich", price: "$6.99", description: "", pic: "images/breakfast/cat5.png" },
+  { name: "Fish Sandwich", price: "$6.99", description: "", pic: "images/breakfast/cat5.png" },
+  { name: "Double Hamburger", price: "$6.99", description: "", pic: "images/breakfast/cat5.png" },
+  { name: "Double Cheeseburger", price: "$7.75", description: "", pic: "images/breakfast/cat5.png" },
+  { name: "Double BBQ Burger", price: "$6.99", description: "", pic: "images/breakfast/cat5.png" },
+  { name: "Double BBQ Cheeseburger", price: "$7.75", description: "", pic: "images/breakfast/cat5.png" },
   { name: "Deluxe (lettuce, onion, tomato)", price: "+$1.75", description: "", pic: "images/breakfast/cat5.png" },
 ];
 
@@ -151,7 +151,6 @@ const partyPans = [
 
 const breakfast = [breakfastPlates, breakfastSandwiches, breakfastSides];
 const lunch = [lunchPlates, lunchComboPlates, lunchWokPlates, lunchSandwiches, lunchSalads, lunchSides];
-// const lunch = [lunchSandwiches, lunchSalads, lunchSides];
 const catering = [partyPans];
 
 const menuData = [breakfast, lunch, catering];

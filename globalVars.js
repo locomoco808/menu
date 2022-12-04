@@ -1,5 +1,12 @@
 let currentDataSet = [];
 
+function buildHTMLBasic(elementId, htmlString) {
+    let targetDiv = document.getElementById(elementId);
+    let element = document.createElement('div');
+    element.innerHTML += htmlString;
+    targetDiv.appendChild(element);
+}
+
 function buildHTMLforMenuPriceList(data, id) {
     let list = document.getElementById(id);
     let element = document.createElement('ul');
@@ -141,35 +148,10 @@ function buildHTMLforGrid3Price(data, id) {
 function buildHTMLstarter() {
     let href = window.location.href;
     console.log(currentDataSet);
-    if (href.includes('full')) {
-      let runningTotal = 0;
-      for (let i = 0; i < currentDataSet.length; i++) { // [breakfast, lunch, catering]
-        for (let j = 0; j < currentDataSet[i].length; j++) {
-          if (i == 1 && j == 0) { // if lunchPlates
-            buildHTMLforList2Price(currentDataSet[i][j], `list${runningTotal+j+1}`);
-          } else if (i == 2 && j == 0) { // if partyPans
-            buildHTMLforList3Price(currentDataSet[i][j], `list${runningTotal+j+1}`);
-          } else {
-            buildHTMLforList(currentDataSet[i][j], `list${runningTotal+j+1}`);
-          }
-        }
-        runningTotal += currentDataSet[i].length;
-      }
-    } else if (href.includes('lunch')) {
-      // buildHTMLforGrid2Price(currentDataSet[0], `list${1}`);
-      // for (let i = 1; i < currentDataSet.length; i++) {
-      //     buildHTMLforGrid(currentDataSet[i], `list${i+1}`);
-      // }
+    if (href.includes('lunch') || href.includes('full')) {
+      currentDataSet = lunch;
       for (let i = 3; i < currentDataSet.length; i++) {
           buildHTMLforMenuPriceList(currentDataSet[i], `list${i-2}`);
       }
-    } else if (href.includes('catering')) {
-      for (let i = 0; i < currentDataSet.length; i++) {
-          buildHTMLforGrid3Price(currentDataSet[i], `list${i+1}`);
-      }
-    } else { // grid
-        for (let i = 0; i < currentDataSet.length; i++) {
-            buildHTMLforGrid(currentDataSet[i], `list${i+1}`);
-        }
     }
 }
