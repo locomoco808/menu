@@ -9,7 +9,7 @@ const footerText =
 
 const houseFavsContentText =
 '<div class="ui center aligned container"> \
-  <div class="ui three stackable centered cards"> \
+  <div class="ui stackable centered cards"> \
     <div class="ui centered card"> \
       <div class="image"><img src="images/lunch/4-chickenKatsu.jpg"></div> \
       <div class="content"> \
@@ -25,14 +25,14 @@ const houseFavsContentText =
       </div> \
     </div> \
     <div class="ui centered card"> \
-      <div class="image"><img src="images/lunch/8-bbqChicken.jpg"></div> \
+      <div class="image"><img src="images/lunch/bbqChicken.png"></div> \
       <div class="content"> \
         <div class="header">BBQ Chicken</div> \
         <div class="description">$13.99</div> \
       </div> \
     </div> \
     <div class="ui centered card"> \
-      <div class="image"><img src="images/lunch/15-garlicChicken.jpg"></div> \
+      <div class="image"><img src="images/lunch/garlicChicken.png"></div> \
       <div class="content"> \
         <div class="header">Garlic Chicken</div> \
         <div class="description">$13.99</div> \
@@ -53,7 +53,7 @@ const houseFavsContentText =
       </div> \
     </div> \
     <div class="ui centered card"> \
-      <div class="image"><img src="images/lunch/9-hamburgerSteak.jpg"></div> \
+      <div class="image"><img src="images/lunch/hamburgerSteak.png"></div> \
       <div class="content"> \
         <div class="header">Hamburger Steak</div> \
         <div class="description">$14.49</div> \
