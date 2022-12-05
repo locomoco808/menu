@@ -7,6 +7,7 @@ function buildHeader() {
         <a class="biggerfont activeLogo item" href="https://locomoco808.github.io/menu/full"><img class="ui small spaced image" src="images/loco-moco-logo.png"></a> \
         <div class="right menu"> \
           <a class="biggerfont activeFull item" href="https://locomoco808.github.io/menu/full">Full Menu</a> \
+          <a class="biggerfont activeHouseFavs item" href="https://locomoco808.github.io/menu/houseFavs">House Favorites</a> \
           <a class="biggerfont activeLunch item" href="https://locomoco808.github.io/menu/lunch">Lunch</a> \
           <a class="biggerfont activeCatering item" href="https://locomoco808.github.io/menu/catering">Catering</a> \
         </div> \
@@ -24,16 +25,25 @@ function buildHeader() {
     if (href.includes('full')) {
         currentDataSet = menuData;
         element.innerHTML = element.innerHTML.replace("activeFull", "active");
+        element.innerHTML = element.innerHTML.replace("activeHouseFavs", "");
+        element.innerHTML = element.innerHTML.replace("activeLunch", "");
+        element.innerHTML = element.innerHTML.replace("activeCatering", "");
+    } else if (href.includes('houseFavs')) {
+        currentDataSet = lunch;
+        element.innerHTML = element.innerHTML.replace("activeFull", "");
+        element.innerHTML = element.innerHTML.replace("activeHouseFavs", "active");
         element.innerHTML = element.innerHTML.replace("activeLunch", "");
         element.innerHTML = element.innerHTML.replace("activeCatering", "");
     } else if (href.includes('lunch')) {
         currentDataSet = lunch;
         element.innerHTML = element.innerHTML.replace("activeFull", "");
+        element.innerHTML = element.innerHTML.replace("activeHouseFavs", "");
         element.innerHTML = element.innerHTML.replace("activeLunch", "active");
         element.innerHTML = element.innerHTML.replace("activeCatering", "");
     } else { // if (href.includes('catering')
         currentDataSet = catering;
         element.innerHTML = element.innerHTML.replace("activeFull", "");
+        element.innerHTML = element.innerHTML.replace("activeHouseFavs", "");
         element.innerHTML = element.innerHTML.replace("activeLunch", "");
         element.innerHTML = element.innerHTML.replace("activeCatering", "active");
     }

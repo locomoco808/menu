@@ -6,6 +6,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.3/semantic.min.css">
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.3/semantic.min.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/underscore@1.12.0/underscore-min.js"></script>
   <script type="text/javascript" src="menu-data.js"></script>
   <script type="text/javascript" src="globalVars.js"></script>
   <script type="text/javascript" src="header.js"></script>
@@ -17,36 +18,10 @@
     <div id="header"></div>
     <div id="mainList" style="padding: 2rem">
       <hr>
-      <h1 class="pageTitle">Full Menu</h1>
+      <h1 class="pageTitle">House Favorites !</h1>
       <hr>
       <br>
-      <div class="ui fluid accordion">
-        <div id="houseFavsDiv">
-          <div class="title">
-            <h1><i class="dropdown icon"></i> House Favorites</h1>
-          </div>
-          <div class="content paddinglr">
-            <div id="houseFavsContent"></div>
-          </div>
-        </div>
-        <div id="lunchDiv">
-          <div class="title">
-            <h1><i class="dropdown icon"></i> Lunch Menu</h1>
-          </div>
-          <div class="content">
-            <div id="lunchContent"></div>
-          </div>
-        </div>
-        <div id="cateringDiv">
-          <div class="title">
-            <h1><i class="dropdown icon"></i> Catering</h1>
-          </div>
-          <div class="content paddinglr">
-            <div id="cateringContent"></div>
-          </div>
-        </div>
-      </div>
-      <br>
+      <div id="houseFavsContent"></div>
       <br>
     </div>
     <div id="footer"></div>
@@ -58,8 +33,5 @@
 buildHeader();
 buildHTMLBasic('footer', footerText);
 buildHTMLBasic('houseFavsContent', houseFavsContentText);
-buildHTMLBasic('lunchContent', lunchContentText);
-buildHTMLBasic('cateringContent', cateringContentText);
 buildHTMLstarter();
-$('.ui.accordion').accordion();
 </script>
