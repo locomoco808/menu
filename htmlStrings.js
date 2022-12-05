@@ -85,11 +85,11 @@ const houseFavsContentText =
 const lunchContentText =
 '<div id="plateLunchDiv"> \
   <h1 style="text-align: center">Plate Lunches</h1> \
-  <div class="ui center aligned container" style="padding: 0px 15%"> \
+  <div class="ui center aligned container" style="padding: 0px 10%"> \
     <div class="ui segment mySegment"> \
       <div class="ui large list"> \
-        <div class="item"><div class="content"><strong>Regular</strong> - 2 steamed rice & 1 mac salad</div></div> \
-        <div class="item"><div class="content"><strong>Mini</strong> - 1 steamed rice & 1 mac salad</div></div> \
+        <div class="item"><div class="content biggerfont2"><strong>Regular</strong> - 2 steamed rice & 1 mac salad</div></div> \
+        <div class="item"><div class="content biggerfont2"><strong>Mini</strong> - 1 steamed rice & 1 mac salad</div></div> \
       </div> \
     </div> \
   </div> \
@@ -141,14 +141,39 @@ const lunchContentText =
     </div> \
   </div> \
 </div> \
+<div class="ui center aligned container"> \
+  <div class="ui three centered cards"> \
+    <div class="ui centered card"> \
+      <div class="image"><img src="images/lunch/4-chickenKatsu.jpg"></div> \
+      <div class="content"> \
+        <div class="header">Chicken Katsu</div> \
+        <div class="description">$13.99</div> \
+      </div> \
+    </div> \
+    <div class="ui centered card"> \
+      <div class="image"><img src="images/lunch/5-locoMoco.jpg"></div> \
+      <div class="content"> \
+        <div class="header">Loco Moco</div> \
+        <div class="description">$14.49</div> \
+      </div> \
+    </div> \
+    <div class="ui centered card"> \
+      <div class="image"><img src="images/lunch/13-beefStew.jpg"></div> \
+      <div class="content"> \
+        <div class="header">Beef Stew</div> \
+        <div class="description">$14.49</div> \
+      </div> \
+    </div> \
+  </div> \
+</div> \
 <br> \
 <div id="comboPlatesDiv"> \
   <h1 style="text-align: center">Combination Plates</h1> \
   <h2 style="text-align: center">$16.99 REGULAR ONLY</h2> \
-  <div class="ui center aligned container" style="padding: 0px 15%"> \
+  <div class="ui center aligned container" style="padding: 0px 10%"> \
     <div class="ui segment mySegment"> \
       <div class="ui large list"> \
-        <div class="item"><div class="content"><strong>Regular</strong> - 2 steamed rice & 1 mac salad</div></div> \
+        <div class="item"><div class="content biggerfont2"><strong>Regular</strong> - 2 steamed rice & 1 mac salad</div></div> \
       </div> \
     </div> \
   </div> \
@@ -200,9 +225,21 @@ const lunchContentText =
 <p style="text-align: center">(any 2 choices of plate lunch)</p> --> \
 <div class="ui center aligned container" style="padding: 0px 20%"> \
   <div class="ui segment mySegment"> \
-    <h3 style="text-align: center; font-size: 1.5rem">Special Combo Plate</h3> \
+    <h3 style="text-align: center; font-size: 1.5rem" class="biggerfont2">Special Combo Plate</h3> \
     <div class="ui large list"> \
       <div class="item"><div class="content">Any 2 choices of plate lunch</div></div> \
+    </div> \
+  </div> \
+</div> \
+<br> \
+<div class="ui center aligned container"> \
+  <div class="ui centered cards"> \
+    <div class="ui centered card"> \
+      <div class="image"><img src="images/lunch/12-newYorkSteakGarlicShrimp.jpg"></div> \
+      <div class="content"> \
+        <div class="header">New York Steak & Garlic Shrimp</div> \
+        <div class="description">$16.99</div> \
+      </div> \
     </div> \
   </div> \
 </div> \
@@ -271,12 +308,12 @@ const cateringContentText =
 <br> \
 <div id="partyPans" class="ui center aligned container"> \
   <h1>Party Pans</h1> \
-  <div class="ui center aligned container" style="padding: 0px 25%"> \
+  <div class="ui center aligned container" style="padding: 0px 18%"> \
     <div class="ui segment mySegment"> \
       <div class="ui large list"> \
-        <div class="item"><div class="content"><strong>Small Pan</strong> serves <strong>6-8</strong> people</div></div> \
-        <div class="item"><div class="content"><strong>Medium Pan</strong> serves <strong>10-15</strong> people</div></div> \
-        <div class="item"><div class="content"><strong>Large Pan</strong> serves <strong>20-25</strong> people</div></div> \
+        <div class="item"><div class="content biggerfont2"><strong>Small Pan</strong> serves <strong>6-8</strong> people</div></div> \
+        <div class="item"><div class="content biggerfont2"><strong>Medium Pan</strong> serves <strong>10-15</strong> people</div></div> \
+        <div class="item"><div class="content biggerfont2"><strong>Large Pan</strong> serves <strong>20-25</strong> people</div></div> \
       </div> \
     </div> \
   </div> \

@@ -129,12 +129,12 @@ hr {
 .mySegment {
 	text-align: center !important;
 	font-size: 1.1rem !important;
-	background-color: lavenderBlush !important;
-	color: brown !important;
+	background-color: lightCyan !important;
+	color: midnightBlue !important;
 	border-radius: 4rem !important;
 	/* margin: 0px 3rem !important; */
 	padding: 1rem 2rem !important;
-	border: 2px solid rgba(200, 143, 121, 0.9) !important;
+	border: 2px solid rgba(25, 25, 112, 0.9) !important;
 }
 
 #deluxeSegment {
