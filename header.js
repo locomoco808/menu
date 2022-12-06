@@ -4,7 +4,7 @@ function buildHeader() {
     let element = document.createElement('div');
     element.innerHTML +=
     '<div class="ui fluid inverted menu" id="menuBar"> \
-        <a class="biggerfont activeLogo item" href="https://locomoco808.github.io/menu/full"><img class="ui small spaced image" src="images/loco-moco-logo.png"></a> \
+        <a class="biggerfont activeLogo item" style="padding-left: 0.9rem; padding-right: 0.95rem" href="https://locomoco808.github.io/menu/full"><img class="ui small spaced image" src="images/loco-moco-logo.png"></a> \
         <div class="right menu"> \
           <a class="biggerfont activeFull item" href="https://locomoco808.github.io/menu/full">Full Menu</a> \
           <a class="biggerfont activeHouseFavs item" href="https://locomoco808.github.io/menu/houseFavs">House Favorites</a> \
@@ -15,7 +15,7 @@ function buildHeader() {
     <div class="ui circular segment phoneOrderSegment"> \
       <h2>Phone Orders</h2> \
       <div class="sub header"> \
-        <a href="tel:8086762888">(808) 676-2888</a>\
+        <a class="biggerfont2" href="tel:8086762888">(808) 676-2888</a>\
       </div> \
     </div>'
     // <hr> \

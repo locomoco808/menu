@@ -80,7 +80,9 @@ const houseFavsContentText =
         <div class="description">$16.99</div> \
       </div> \
     </div> --> \
-  </div>';
+  </div> \
+  <br> \
+</div>';
 
 const lunchContentText =
 '<div id="plateLunchDiv"> \
@@ -141,6 +143,7 @@ const lunchContentText =
     </div> \
   </div> \
 </div> \
+<br> \
 <div class="ui center aligned container"> \
   <div class="ui three centered cards"> \
     <div class="ui centered card"> \
@@ -223,11 +226,11 @@ const lunchContentText =
 <br> \
 <!-- <h2 style="text-align: center">Special Combo Plate</h2> \
 <p style="text-align: center">(any 2 choices of plate lunch)</p> --> \
-<div class="ui center aligned container" style="padding: 0px 20%"> \
+<div class="ui center aligned container" style="padding: 0px 17%"> \
   <div class="ui segment mySegment"> \
     <h3 style="text-align: center; font-size: 1.5rem" class="biggerfont2">Special Combo Plate</h3> \
     <div class="ui large list"> \
-      <div class="item"><div class="content">Any 2 choices of plate lunch</div></div> \
+      <div class="item"><div class="content biggerfont2">Any 2 choices of plate lunch</div></div> \
     </div> \
   </div> \
 </div> \
@@ -288,19 +291,19 @@ const cateringContentText =
   <div class="ui horizontal segments" style="background-color: transparent; border: none; box-shadow: none;"> \
     <div class="ui segment mySegment" style="padding-right: 50px"> \
       <h2>Party Pan-Pack #1</h2> \
-      <h3 style="margin-bottom: 0.5rem;">Serves 3-4 People</h3> \
-      BBQ Chicken (4 pcs) <br> \
-      BBQ Shortribs (2 pcs) <br> \
-      BBQ Teriyaki Steak (2 pcs) <br> \
+      <h3 style="font-size: 1.5rem; margin-bottom: 0.5rem;">Serves 3-4 People</h3> \
+      <span class="biggerfont2">BBQ Chicken (4 pcs)</span> <br> \
+      <span class="biggerfont2">BBQ Shortribs (2 pcs)</span> <br> \
+      <span class="biggerfont2">BBQ Teriyaki Steak (2 pcs)</span> <br> \
       <h2 style="margin-top: 1rem;">$28.99</h2> \
     </div> \
     <div class="ui segment" style="width: 2%; background-color: transparent; border: none; box-shadow: none;"></div> \
     <div class="ui segment mySegment"> \
       <h2>Party Pan-Pack #2</h2> \
-      <h3 style="margin-bottom: 0.5rem;">Serves 6-8 People</h3> \
-      BBQ Chicken (10 pcs) <br> \
-      BBQ Shortribs (5 pcs) <br> \
-      BBQ Teriyaki Steak (5 pcs) <br> \
+      <h3 style="font-size: 1.5rem; margin-bottom: 0.5rem;">Serves 6-8 People</h3> \
+      <span class="biggerfont2">BBQ Chicken (10 pcs)</span> <br> \
+      <span class="biggerfont2">BBQ Shortribs (5 pcs)</span> <br> \
+      <span class="biggerfont2">BBQ Teriyaki Steak (5 pcs)</span> <br> \
       <h2 style="margin-top: 1rem;">$65.99</h2> \
     </div> \
   </div> \
