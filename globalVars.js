@@ -12,12 +12,12 @@ function buildHTMLforMenuPriceList(data, id) {
     let element = document.createElement('ul');
     element.style.padding = '0px';
     for (let i = 0; i < data.length; i++) {
-        let placeholder = '............................................................';
+        let placeholder = '..........................................................';
         let itemName = data[i].name;
         let itemPrice = data[i].price;
         placeholder = placeholder.substring(itemName.length + itemPrice.length + 2);
         let finalStr = itemName + ' ' + placeholder + ' ' + itemPrice;
-        element.innerHTML += '<li>' + finalStr + '</li>';
+        element.innerHTML += '<li class="biggerfont3">' + finalStr + '</li>';
     }
     list.appendChild(element);
 }

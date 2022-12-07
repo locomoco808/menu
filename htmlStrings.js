@@ -228,7 +228,7 @@ const lunchContentText =
 <p style="text-align: center">(any 2 choices of plate lunch)</p> --> \
 <div class="ui center aligned container" style="padding: 0px 17%"> \
   <div class="ui segment mySegment"> \
-    <h3 style="text-align: center; font-size: 1.5rem" class="biggerfont2">Special Combo Plate</h3> \
+    <h3 style="text-align: center; font-size: 1.5rem" class="biggerfont3">Special Combo Plate</h3> \
     <div class="ui large list"> \
       <div class="item"><div class="content biggerfont2">Any 2 choices of plate lunch</div></div> \
     </div> \
@@ -251,14 +251,13 @@ const lunchContentText =
 <div id="wokPlatesDiv"> \
   <div class="ui raised container center aligned segment menuPrice"> \
     <h1 style="text-align: center">Wok Plates</h1> \
-    <!-- <div id="list0"></div> --> \
     <ul style="padding: 0px"> \
-      <li>Fried Rice / Chow Mein / Stir Fry Vegetable &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</li> \
-      <li>&nbsp&nbsp&nbsp&nbspw/ Beef or Chicken .............................. $14.99</li> \
-      <li>&nbsp&nbsp&nbsp&nbspw/ Shrimp ....................................... $15.99</li> \
-      <li>Fried Saimin ........................................ $13.99</li> \
-      <li>&nbsp&nbsp&nbsp&nbspw/ BBQ Chicken or Teri Beef ..................... $14.99</li> \
-      <li>Bento (Katsu, Teriyaki Steak, Fish, Spam) ........... $14.99</li> \
+      <li class="biggerfont3">Fried Rice / Chow Mein / Stir Fry Vegetable &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</li> \
+      <li class="biggerfont3">&nbsp&nbsp&nbsp&nbspw/ Beef or Chicken ............................ $14.99</li> \
+      <li class="biggerfont3">&nbsp&nbsp&nbsp&nbspw/ Shrimp ..................................... $15.99</li> \
+      <li class="biggerfont3">Fried Saimin ...................................... $13.99</li> \
+      <li class="biggerfont3">&nbsp&nbsp&nbsp&nbspw/ BBQ Chicken or Teri Beef ................... $14.99</li> \
+      <li class="biggerfont3">Bento (Katsu, Teriyaki Steak, Fish, Spam) ......... $14.99</li> \
     </ul> \
   </div> \
   <br> \
@@ -321,46 +320,46 @@ const cateringContentText =
     </div> \
   </div> \
   <br> \
-  <h3 style="text-align: center">S $34.99 | M $55.99 | L $80.99</h3> \
+  <h3 class="biggerfont4" style="text-align: center">S $34.99 | M $55.99 | L $80.99</h3> \
   <div class="ui big horizontal list" style="margin: 0px"> \
-    <div class="item"><div class="content biggerfont2">Chicken Katsu</div></div> \
-    <div class="item"><div class="content biggerfont2">Mochiko Chicken</div></div> \
-    <div class="item"><div class="content biggerfont2">BBQ Chicken</div></div> \
-    <div class="item"><div class="content biggerfont2">Garlic Chicken</div></div> \
-    <div class="item"><div class="content biggerfont2">Lemon Chicken</div></div> \
-    <div class="item"><div class="content biggerfont2">Cold Ginger Chicken</div></div> \
-    <div class="item"><div class="content biggerfont2">Oriental Chicken Salad</div></div> \
+    <div class="item"><div class="content biggerfont3">Chicken Katsu</div></div> \
+    <div class="item"><div class="content biggerfont3">Mochiko Chicken</div></div> \
+    <div class="item"><div class="content biggerfont3">BBQ Chicken</div></div> \
+    <div class="item"><div class="content biggerfont3">Garlic Chicken</div></div> \
+    <div class="item"><div class="content biggerfont3">Lemon Chicken</div></div> \
+    <div class="item"><div class="content biggerfont3">Cold Ginger Chicken</div></div> \
+    <div class="item"><div class="content biggerfont3">Oriental Chicken Salad</div></div> \
   </div> \
-  <h3 style="text-align: center">S $38.99 | M $61.99 | L $88.99</h3> \
+  <h3 class="biggerfont4" style="text-align: center">S $38.99 | M $61.99 | L $88.99</h3> \
   <div class="ui big horizontal list" style="margin: 0px"> \
-    <div class="item"><div class="content biggerfont2">Fried Saimin</div></div> \
-    <div class="item"><div class="content biggerfont2">Chicken Fried Rice</div></div> \
-    <div class="item"><div class="content biggerfont2">Chicken Chow Mein (Wet or Dry)</div></div> \
+    <div class="item"><div class="content biggerfont3">Fried Saimin</div></div> \
+    <div class="item"><div class="content biggerfont3">Chicken Fried Rice</div></div> \
+    <div class="item"><div class="content biggerfont3">Chicken Chow Mein (Wet or Dry)</div></div> \
   </div> \
-  <h3 style="text-align: center">S $43.99 | M $67.99 | L $95.99</h3> \
+  <h3 class="biggerfont4" style="text-align: center">S $43.99 | M $67.99 | L $95.99</h3> \
   <div class="ui big horizontal list" style="margin: 0px"> \
-    <div class="item"><div class="content biggerfont2">Teriyaki Pork</div></div> \
-    <div class="item"><div class="content biggerfont2">Teriyaki Beef</div></div> \
-    <div class="item"><div class="content biggerfont2">Beef Stew</div></div> \
-    <div class="item"><div class="content biggerfont2">Beef Curry</div></div> \
-    <div class="item"><div class="content biggerfont2">Shrimp Fried Rice</div></div> \
-    <div class="item"><div class="content biggerfont2">Sweet & Sour Spare Ribs</div></div> \
+    <div class="item"><div class="content biggerfont3">Teriyaki Pork</div></div> \
+    <div class="item"><div class="content biggerfont3">Teriyaki Beef</div></div> \
+    <div class="item"><div class="content biggerfont3">Beef Stew</div></div> \
+    <div class="item"><div class="content biggerfont3">Beef Curry</div></div> \
+    <div class="item"><div class="content biggerfont3">Shrimp Fried Rice</div></div> \
+    <div class="item"><div class="content biggerfont3">Sweet & Sour Spare Ribs</div></div> \
   </div> \
-  <h3 style="text-align: center">S $55.99 | M $79.99 | L $108.99</h3> \
+  <h3 class="biggerfont4" style="text-align: center">S $55.99 | M $79.99 | L $108.99</h3> \
   <div class="ui big horizontal list" style="margin: 0px"> \
-    <div class="item"><div class="content biggerfont2">Beef Broccoli</div></div> \
+    <div class="item"><div class="content biggerfont3">Beef Broccoli</div></div> \
   </div> \
-  <h3 style="text-align: center">S $64.99 | M $93.99 | L $122.99</h3> \
+  <h3 class="biggerfont4" style="text-align: center">S $64.99 | M $93.99 | L $122.99</h3> \
   <div class="ui big horizontal list" style="margin: 0px"> \
-    <div class="item"><div class="content biggerfont2">BBQ Short Ribs</div></div> \
+    <div class="item"><div class="content biggerfont3">BBQ Short Ribs</div></div> \
   </div> \
-  <h3 style="text-align: center">S $28.99 | M $45.99 | L $65.99</h3> \
+  <h3 class="biggerfont4" style="text-align: center">S $28.99 | M $45.99 | L $65.99</h3> \
   <div class="ui big horizontal list" style="margin: 0px"> \
-    <div class="item"><div class="content biggerfont2">Macaroni Salad</div></div> \
-    <div class="item"><div class="content biggerfont2">Tossed Salad</div></div> \
+    <div class="item"><div class="content biggerfont3">Macaroni Salad</div></div> \
+    <div class="item"><div class="content biggerfont3">Tossed Salad</div></div> \
   </div> \
-  <h3 style="text-align: center">S $14.99 | M $24.99 | L $34.99</h3> \
+  <h3 class="biggerfont4" style="text-align: center">S $14.99 | M $24.99 | L $34.99</h3> \
   <div class="ui big horizontal list" style="margin: 0px"> \
-    <div class="item"><div class="content biggerfont2">Steamed Rice</div></div> \
+    <div class="item"><div class="content biggerfont">Steamed Rice</div></div> \
   </div> \
 </div>';
