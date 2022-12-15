@@ -73,13 +73,13 @@ const houseFavsContentText =
         <div class="description">$14.99</div> \
       </div> \
     </div> \
-    <!-- <div class="ui centered card"> \
-      <div class="image"><img src="images/lunch/12-newYorkSteakGarlicShrimp.jpg"></div> \
+    <div class="ui centered card"> \
+      <div class="image"><img src="images/lunch/11-bbqChickenWithFriedSaimin.jpg"></div> \
       <div class="content"> \
-        <div class="header">New York Steak & Garlic Shrimp</div> \
-        <div class="description">$16.99</div> \
+        <div class="header">Fried Saimin w/ BBQ Chicken</div> \
+        <div class="description">$14.99</div> \
       </div> \
-    </div> --> \
+    </div> \
   </div> \
   <br> \
 </div>';
@@ -237,13 +237,13 @@ const lunchContentText =
 <br> \
 <div class="ui center aligned container"> \
   <div class="ui centered cards"> \
-    <div class="ui centered card"> \
+    <!-- <div class="ui centered card"> \
       <div class="image"><img src="images/lunch/12-newYorkSteakGarlicShrimp.jpg"></div> \
       <div class="content"> \
         <div class="header">New York Steak & Garlic Shrimp</div> \
         <div class="description">$16.99</div> \
       </div> \
-    </div> \
+    </div> --> \
   </div> \
 </div> \
 <br> \
@@ -259,6 +259,25 @@ const lunchContentText =
       <li class="biggerfont3">&nbsp&nbsp&nbsp&nbspw/ BBQ Chicken or Teri Beef ................... $14.99</li> \
       <li class="biggerfont3">Bento (Katsu, Teriyaki Steak, Fish, Spam) ......... $14.99</li> \
     </ul> \
+  </div> \
+  <br> \
+  <div class="ui center aligned container" style="width: 50%"> \
+    <div class="ui two centered cards"> \
+      <div class="ui centered card"> \
+        <div class="medium image"><img src="images/lunch/16-chickenStirFry.jpg"></div> \
+        <div class="content"> \
+          <div class="header">Chicken Stir Fry</div> \
+          <div class="description">$14.99</div> \
+        </div> \
+      </div> \
+      <div class="ui centered card"> \
+        <div class="image"><img src="images/lunch/11-bbqChickenWithFriedSaimin.jpg"></div> \
+        <div class="content"> \
+          <div class="header">Fried Saimin w/ BBQ Chicken</div> \
+          <div class="description">$14.99</div> \
+        </div> \
+      </div> \
+    </div> \
   </div> \
   <br> \
 </div> \

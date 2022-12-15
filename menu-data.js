@@ -109,11 +109,11 @@ const lunchSalads = [
 const lunchSides = [
   { name: "Steamed Rice", price: "$2.10", description: "", pic: "images/breakfast/cat5.png" },
   { name: "Brown Rice", price: "$2.35", description: "", pic: "images/breakfast/cat5.png" },
-  { name: "Macaroni Salad", price: "$2.35", description: "", pic: "images/breakfast/cat5.png" },
+  { name: "Macaroni Salad", price: "$4.25", description: "", pic: "images/breakfast/cat5.png" },
   { name: "French Fries", price: "$4.50", description: "", pic: "images/breakfast/cat5.png" },
   { name: "Onion Rings", price: "$4.90", description: "", pic: "images/breakfast/cat5.png" },
   { name: "Chili Fries", price: "$6.50", description: "", pic: "images/breakfast/cat5.png" },
-  { name: "Saimin", price: "$5.45", description: "", pic: "images/breakfast/cat5.png" },
+  { name: "Saimin", price: "$6.50", description: "", pic: "images/breakfast/cat5.png" },
   { name: "Teri Beef Saimin", price: "$8.25", description: "", pic: "images/breakfast/cat5.png" },
   { name: "Beef Curry Bowl / Stew Bowl / Chili Bowl", price: "$9.99", description: "", pic: "images/breakfast/cat5.png" },
   { name: "Won Ton Mein", price: "$8.60", description: "", pic: "images/breakfast/cat5.png" },
