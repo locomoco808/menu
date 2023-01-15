@@ -122,8 +122,7 @@ const partyPans = [
   { name: "BBQ Short Ribs", priceSm: partyPanPrices[6].sm, priceMd: partyPanPrices[6].md, priceLg: partyPanPrices[6].lg, description: "", pic: "images/breakfast/cat5.png" },
 ];
 
-const breakfast = [breakfastPlates, breakfastSandwiches, breakfastSides];
 const lunch = [lunchPlates, lunchComboPlates, lunchWokPlates, lunchSandwiches, lunchSalads, lunchSides];
 const catering = [partyPans];
 
-const menuData = [breakfast, lunch, catering];
+const menuData = [lunch, catering];
