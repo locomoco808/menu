@@ -14,32 +14,6 @@ const partyPanPrices = [
   {sm: "$64.99", md: "$93.99", lg: "$122.99"},
 ];
 
-const breakfastPlates = [
-  { name: "Breakfast Plate", price: "$7.15", description: "(2 eggs, 2 rice, 1 choice of meat)", pic: "images/breakfast/cat5.png" },
-  { name: "Omelet", price: "$7.65", description: "(3 eggs, 2 rice, 1 choice of meat)", pic: "images/breakfast/cat5.png" },
-  { name: "Cheese Omelet w/Rice", price: "$7.15", description: "", pic: "images/breakfast/cat5.png" },
-];
-
-const breakfastSandwiches = [
-  { name: "Grilled Cheese Sandwich", price: "$4.10", description: "", pic: "images/breakfast/cat5.png" },
-  { name: "Grilled Cheese Sandwich w/Ham", price: "$5.05", description: "", pic: "images/breakfast/cat5.png" },
-  { name: "Grilled Cheese Sandwich w/Spam", price: "$5.30", description: "", pic: "images/breakfast/cat5.png" },
-  { name: "Fried Egg Sandwich", price: "$4.10", description: "", pic: "images/breakfast/cat5.png" },
-  { name: "Fried Egg Sandwich w/Ham", price: "$5.05", description: "", pic: "images/breakfast/cat5.png" },
-  { name: "Fried Egg Sandwich w/Spam", price: "$5.30", description: "", pic: "images/breakfast/cat5.png" },
-  { name: "Ham Sandwich", price: "$4.90", description: "", pic: "images/breakfast/cat5.png" },
-  { name: "Spam Sandwich", price: "$5.05", description: "", pic: "images/breakfast/cat5.png" },
-  { name: "BLT", price: "$5.90", description: "", pic: "images/breakfast/cat5.png" },
-];
-
-const breakfastSides = [
-  { name: "Any Meat", price: "$5.50", description: "", pic: "images/breakfast/cat5.png" },
-  { name: "Egg", price: "$2.50", description: "", pic: "images/breakfast/cat5.png" },
-  { name: "Hash Brown", price: "$2.50", description: "", pic: "images/breakfast/cat5.png" },
-  { name: "Toast", price: "$2.50", description: "", pic: "images/breakfast/cat5.png" },
-  { name: "French Toast", price: "$5.90", description: "", pic: "images/breakfast/cat5.png" },
-];
-
 const lunchPlates = [
   { name: "Chicken Katsu / Cutlet", priceReg: lunchPrices[0].reg, priceMini: lunchPrices[0].mini, description: "", pic: "images/breakfast/cat5.png" },
   { name: "Chicken Katsu Curry", priceReg: lunchPrices[0].reg, priceMini: lunchPrices[0].mini, description: "", pic: "images/breakfast/cat5.png" },
@@ -102,7 +76,6 @@ const lunchSalads = [
   { name: "Tossed Green Salad", price: "$9.99", description: "", pic: "images/breakfast/cat5.png" },
   { name: "Oriental Chinese Chicken Salad", price: "$14.99", description: "", pic: "images/breakfast/cat5.png" },
   { name: "Grilled Chicken Salad", price: "$16.99", description: "", pic: "images/breakfast/cat5.png" },
-  { name: "Grilled Salmon Salad", price: "$16.99", description: "", pic: "images/breakfast/cat5.png" },
   { name: "Shrimp Salad", price: "$16.99", description: "", pic: "images/breakfast/cat5.png" },
 ];
 
