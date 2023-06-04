@@ -63,8 +63,8 @@ const lunchSandwiches = [
   { name: "BBQ Cheeseburger", price: "$6.50", description: "", pic: "images/breakfast/cat5.png" },
   { name: "BBQ Chicken Sandwich", price: "$6.99", description: "", pic: "images/breakfast/cat5.png" },
   { name: "Katsu Burger", price: "$6.99", description: "", pic: "images/breakfast/cat5.png" },
-  { name: "Teri Beef Sandwich", price: "$6.99", description: "", pic: "images/breakfast/cat5.png" },
-  { name: "Fish Sandwich", price: "$6.99", description: "", pic: "images/breakfast/cat5.png" },
+  { name: "Teri Beef Sandwich", price: "$7.99", description: "", pic: "images/breakfast/cat5.png" },
+  { name: "Fish Sandwich", price: "$7.99", description: "", pic: "images/breakfast/cat5.png" },
   { name: "Double Hamburger", price: "$6.99", description: "", pic: "images/breakfast/cat5.png" },
   { name: "Double Cheeseburger", price: "$7.75", description: "", pic: "images/breakfast/cat5.png" },
   { name: "Double BBQ Burger", price: "$6.99", description: "", pic: "images/breakfast/cat5.png" },
@@ -86,11 +86,11 @@ const lunchSides = [
   { name: "French Fries", price: "$4.50", description: "", pic: "images/breakfast/cat5.png" },
   { name: "Onion Rings", price: "$4.90", description: "", pic: "images/breakfast/cat5.png" },
   { name: "Chili Fries", price: "$6.50", description: "", pic: "images/breakfast/cat5.png" },
-  { name: "Saimin", price: "$6.50", description: "", pic: "images/breakfast/cat5.png" },
-  { name: "Teri Beef Saimin", price: "$8.25", description: "", pic: "images/breakfast/cat5.png" },
-  { name: "Beef Curry Bowl / Stew Bowl / Chili Bowl", price: "$9.99", description: "", pic: "images/breakfast/cat5.png" },
-  { name: "Won Ton Mein", price: "$8.60", description: "", pic: "images/breakfast/cat5.png" },
-  { name: "Won Ton Soup", price: "$9.10", description: "", pic: "images/breakfast/cat5.png" },
+  { name: "Saimin", price: "$7.50", description: "", pic: "images/breakfast/cat5.png" },
+  { name: "Teri Beef Saimin", price: "$9.50", description: "", pic: "images/breakfast/cat5.png" },
+  { name: "Beef Curry Bowl / Stew Bowl / Chili Bowl", price: "$10.99", description: "", pic: "images/breakfast/cat5.png" },
+  { name: "Won Ton Mein", price: "$9.99", description: "", pic: "images/breakfast/cat5.png" },
+  { name: "Won Ton Soup", price: "$9.99", description: "", pic: "images/breakfast/cat5.png" },
 ];
 
 const partyPans = [

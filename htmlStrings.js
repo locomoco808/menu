@@ -42,28 +42,28 @@ const houseFavsContentText =
       <div class="image"><img src="images/lunch/5-locoMoco.jpg"></div> \
       <div class="content"> \
         <div class="header">Loco Moco</div> \
-        <div class="description">$14.49</div> \
+        <div class="description">$14.99</div> \
       </div> \
     </div> \
     <div class="ui centered card"> \
       <div class="image"><img src="images/lunch/13-beefStew.jpg"></div> \
       <div class="content"> \
         <div class="header">Beef Stew</div> \
-        <div class="description">$14.49</div> \
+        <div class="description">$14.99</div> \
       </div> \
     </div> \
     <div class="ui centered card"> \
       <div class="image"><img src="images/lunch/hamburgerSteak.png"></div> \
       <div class="content"> \
         <div class="header">Hamburger Steak</div> \
-        <div class="description">$14.49</div> \
+        <div class="description">$14.99</div> \
       </div> \
     </div> \
     <div class="ui centered card"> \
       <div class="image"><img src="images/lunch/14-teriyakiSteak.jpg"></div> \
       <div class="content"> \
         <div class="header">Teriyaki Steak</div> \
-        <div class="description">$14.49</div> \
+        <div class="description">$14.99</div> \
       </div> \
     </div> \
     <div class="ui centered card"> \
@@ -118,9 +118,9 @@ const lunchContentText =
     <div class="column"> \
       <div class="ui center aligned container"> \
         <div class="ui horizontal list" style="margin: 0px"> \
-          <div class="item"><h3 class="biggerfont3">$14.49 REGULAR</h3></div> \
+          <div class="item"><h3 class="biggerfont3">$14.99 REGULAR</h3></div> \
           <div class="item" style="padding: 10px"></div> \
-          <div class="item"><h3 class="biggerfont3">$10.49 MINI</h3></div> \
+          <div class="item"><h3 class="biggerfont3">$10.99 MINI</h3></div> \
         </div> \
         <div class="ui list"> \
           <div class="item"><div class="content">Loco Moco</div></div> \
@@ -131,16 +131,27 @@ const lunchContentText =
           <div class="item"><div class="content">Sweet & Sour Spare Ribs</div></div> \
           <div class="item"><div class="content">Teriyaki Steak</div></div> \
           <div class="item"><div class="content">Teriyaki Pork</div></div> \
-          <div class="item"><div class="content">Shrimp Curry</div></div> \
-          <div class="item"><div class="content">Deep Fried Fish</div></div> \
-          <div class="item"><div class="content">Deep Fried Scallop</div></div> \
-          <div class="item"><div class="content">Garlic Shrimp</div></div> \
-          <div class="item"><div class="content">Grilled Garlic Fish</div></div> \
           <div class="item"><div class="content">Chili Dog Plate</div></div> \
           <div class="item"><div class="content">Chili Hamburger Plate</div></div> \
         </div> \
       </div> \
     </div> \
+  </div> \
+</div> \
+<br> \
+<div class="ui center aligned container"> \
+  <div class="ui big horizontal list" style="margin: 0px"> \
+    <div class="item"><h3 class="biggerfont3">$16.99 REGULAR</h3></div> \
+    <div class="item" style="padding: 10px"></div> \
+    <div class="item"><h3 class="biggerfont3">$12.99 MINI</h3></div> \
+  </div> \
+  <div class="ui list"> \
+    <div class="item"><div class="content">Deep Fried Shrimp</div></div> \
+    <div class="item"><div class="content">Deep Fried Fish</div></div> \
+    <div class="item"><div class="content">Deep Fried Scallop</div></div> \
+    <div class="item"><div class="content">Shrimp Curry</div></div> \
+    <div class="item"><div class="content">Garlic Shrimp</div></div> \
+    <div class="item"><div class="content">Grilled Garlic Fish</div></div> \
   </div> \
 </div> \
 <br> \
@@ -157,14 +168,14 @@ const lunchContentText =
       <div class="image"><img src="images/lunch/5-locoMoco.jpg"></div> \
       <div class="content"> \
         <div class="header">Loco Moco</div> \
-        <div class="description">$14.49</div> \
+        <div class="description">$14.99</div> \
       </div> \
     </div> \
     <div class="ui centered card"> \
       <div class="image"><img src="images/lunch/13-beefStew.jpg"></div> \
       <div class="content"> \
         <div class="header">Beef Stew</div> \
-        <div class="description">$14.49</div> \
+        <div class="description">$14.99</div> \
       </div> \
     </div> \
   </div> \
@@ -256,8 +267,8 @@ const lunchContentText =
       <li class="biggerfont3">&nbsp&nbsp&nbsp&nbspw/ Beef or Chicken ............................ $14.99</li> \
       <li class="biggerfont3">&nbsp&nbsp&nbsp&nbspw/ Shrimp ..................................... $15.99</li> \
       <li class="biggerfont3">Fried Saimin ...................................... $13.99</li> \
-      <li class="biggerfont3">&nbsp&nbsp&nbsp&nbspw/ BBQ Chicken or Teri Beef ................... $14.99</li> \
-      <li class="biggerfont3">Bento (Katsu, Teriyaki Steak, Fish, Spam) ......... $14.99</li> \
+      <li class="biggerfont3">&nbsp&nbsp&nbsp&nbspw/ BBQ Chicken or Teri Beef ................... $17.99</li> \
+      <li class="biggerfont3">Bento (Katsu, Teriyaki Steak, Fish, Spam) ......... $15.99</li> \
     </ul> \
   </div> \
   <br> \
@@ -274,7 +285,7 @@ const lunchContentText =
         <div class="image"><img src="images/lunch/11-bbqChickenWithFriedSaimin.jpg"></div> \
         <div class="content"> \
           <div class="header">Fried Saimin w/ BBQ Chicken</div> \
-          <div class="description">$14.99</div> \
+          <div class="description">$17.99</div> \
         </div> \
       </div> \
     </div> \
