@@ -58,13 +58,12 @@ buildHeader();
 buildHTMLBasic('footer', footerText);
 buildHTMLBasic('houseFavsContent', houseFavsContentText);
 buildHTMLBasic('lunchContent', lunchContentText);
-buildHTMLByClass('tier1reg', lunchPrices.tier1.reg);
-buildHTMLByClass('tier1mini', lunchPrices.tier1.mini);
-buildHTMLByClass('tier2reg', lunchPrices.tier2.reg);
-buildHTMLByClass('tier2mini', lunchPrices.tier2.mini);
-buildHTMLByClass('tier3reg', lunchPrices.tier3.reg);
-buildHTMLByClass('tier3mini', lunchPrices.tier3.mini);
+updatePrices(lunchPrices);
+buildHTMLByClass('comboPlateReg', comboPlatePrices.reg);
 buildHTMLBasic('cateringContent', cateringContentText);
+updatePrices(partyPanPrices);
+buildHTMLByClass('partyPanPack1', partyPanPackPrices.pack1);
+buildHTMLByClass('partyPanPack2', partyPanPackPrices.pack2);
 buildHTMLstarter();
 $('.ui.accordion').accordion();
 </script>

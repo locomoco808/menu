@@ -14,6 +14,20 @@ function buildHTMLByClass(elementClass, htmlString) {
     }
 }
 
+function updatePrices(priceArray) {
+  let keys = Object.keys(priceArray);
+  for (let i = 0; i < keys.length; i++) {
+    let innerKeys = Object.keys(priceArray[keys[i]]);
+    for (let j = 0; j < innerKeys.length; j++) {
+      let innerClassName = keys[i] + innerKeys[j];
+      let value = priceArray[keys[i]][innerKeys[j]];
+      console.log(innerClassName);
+      console.log(value);
+      buildHTMLByClass(innerClassName, value);
+    }
+  }
+}
+
 function buildHTMLforMenuPriceList(data, id) {
     let list = document.getElementById(id);
     let element = document.createElement('ul');

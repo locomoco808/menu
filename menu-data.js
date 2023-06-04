@@ -4,15 +4,22 @@ const lunchPrices = {
   tier3: {reg: "$16.99", mini: "$12.99"},
 };
 
-const partyPanPrices = [
-  {sm: "$14.99", md: "$24.99", lg: "$34.99"},
-  {sm: "$28.99", md: "$45.99", lg: "$65.99"},
-  {sm: "$34.99", md: "$55.99", lg: "$80.99"},
-  {sm: "$38.99", md: "$61.99", lg: "$90.99"},
-  {sm: "$43.99", md: "$67.99", lg: "$95.99"},
-  {sm: "$55.99", md: "$79.99", lg: "$108.99"},
-  {sm: "$64.99", md: "$93.99", lg: "$122.99"},
-];
+const comboPlatePrices = {reg: "$16.99", mini: "$16.99"};
+
+const partyPanPrices = {
+  tier1: {sm: "$34.99", md: "$55.99", lg: "$80.99"},
+  tier2: {sm: "$38.99", md: "$61.99", lg: "$88.99"},
+  tier3: {sm: "$43.99", md: "$67.99", lg: "$95.99"},
+  tier4: {sm: "$55.99", md: "$79.99", lg: "$108.99"},
+  tier5: {sm: "$64.99", md: "$93.99", lg: "$122.99"},
+  tier6: {sm: "$28.99", md: "$45.99", lg: "$65.99"},
+  tier7: {sm: "$14.99", md: "$24.99", lg: "$34.99"},
+};
+
+const partyPanPackPrices = {
+  pack1: "$28.99",
+  pack2: "$65.99",
+};
 
 const lunchWokPlates = [
   { name: "Fried Rice / Chow Mein / Stir Fry Vegetable w/ Beef or Chicken", price: "$14.99", description: "" },
@@ -59,36 +66,5 @@ const lunchSides = [
   { name: "Beef Curry Bowl / Stew Bowl / Chili Bowl", price: "$10.99", description: "" },
 ];
 
-const partyPans = [
-  { name: "Steamed Rice", priceSm: partyPanPrices[0].sm, priceMd: partyPanPrices[0].md, priceLg: partyPanPrices[0].lg, description: "" },
-
-  { name: "Macaroni Salad", priceSm: partyPanPrices[1].sm, priceMd: partyPanPrices[1].md, priceLg: partyPanPrices[1].lg, description: "" },
-  { name: "Tossed Salad", priceSm: partyPanPrices[1].sm, priceMd: partyPanPrices[1].md, priceLg: partyPanPrices[1].lg, description: "" },
-
-  { name: "Chicken Katsu", priceSm: partyPanPrices[2].sm, priceMd: partyPanPrices[2].md, priceLg: partyPanPrices[2].lg, description: "" },
-  { name: "BBQ Chicken", priceSm: partyPanPrices[2].sm, priceMd: partyPanPrices[2].md, priceLg: partyPanPrices[2].lg, description: "" },
-  { name: "Mochiko Chicken", priceSm: partyPanPrices[2].sm, priceMd: partyPanPrices[2].md, priceLg: partyPanPrices[2].lg, description: "" },
-  { name: "Garlic Chicken", priceSm: partyPanPrices[2].sm, priceMd: partyPanPrices[2].md, priceLg: partyPanPrices[2].lg, description: "" },
-  { name: "Lemon Chicken", priceSm: partyPanPrices[2].sm, priceMd: partyPanPrices[2].md, priceLg: partyPanPrices[2].lg, description: "" },
-  { name: "Cold Ginger Chicken", priceSm: partyPanPrices[2].sm, priceMd: partyPanPrices[2].md, priceLg: partyPanPrices[2].lg, description: "" },
-  { name: "Oriental Chicken Salad", priceSm: partyPanPrices[2].sm, priceMd: partyPanPrices[2].md, priceLg: partyPanPrices[2].lg, description: "" },
-
-  { name: "Fried Saimin", priceSm: partyPanPrices[3].sm, priceMd: partyPanPrices[3].md, priceLg: partyPanPrices[3].lg, description: "" },
-  { name: "Chicken Fried Rice", priceSm: partyPanPrices[3].sm, priceMd: partyPanPrices[3].md, priceLg: partyPanPrices[3].lg, description: "" },
-  { name: "Chicken Chow Mein (Wet or Dry)", priceSm: partyPanPrices[3].sm, priceMd: partyPanPrices[3].md, priceLg: partyPanPrices[3].lg, description: "" },
-
-  { name: "Teriyaki Beef", priceSm: partyPanPrices[4].sm, priceMd: partyPanPrices[4].md, priceLg: partyPanPrices[4].lg, description: "" },
-  { name: "Teriyaki Pork", priceSm: partyPanPrices[4].sm, priceMd: partyPanPrices[4].md, priceLg: partyPanPrices[4].lg, description: "" },
-  { name: "Beef Curry", priceSm: partyPanPrices[4].sm, priceMd: partyPanPrices[4].md, priceLg: partyPanPrices[4].lg, description: "" },
-  { name: "Beef Stew", priceSm: partyPanPrices[4].sm, priceMd: partyPanPrices[4].md, priceLg: partyPanPrices[4].lg, description: "" },
-  { name: "Sweet & Sour Spare Ribs", priceSm: partyPanPrices[4].sm, priceMd: partyPanPrices[4].md, priceLg: partyPanPrices[4].lg, description: "" },
-  { name: "Shrimp Fried Rice", priceSm: partyPanPrices[4].sm, priceMd: partyPanPrices[4].md, priceLg: partyPanPrices[4].lg, description: "" },
-
-  { name: "Beef Broccoli", priceSm: partyPanPrices[5].sm, priceMd: partyPanPrices[5].md, priceLg: partyPanPrices[5].lg, description: "" },
-  { name: "BBQ Short Ribs", priceSm: partyPanPrices[6].sm, priceMd: partyPanPrices[6].md, priceLg: partyPanPrices[6].lg, description: "" },
-];
-
 const lunch = [lunchWokPlates, lunchSandwiches, lunchSalads, lunchSides];
-const catering = [partyPans];
-
-const menuData = [lunch, catering];
+const menuData = [lunch];
