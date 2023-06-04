@@ -33,5 +33,9 @@
 buildHeader();
 buildHTMLBasic('footer', footerText);
 buildHTMLBasic('lunchContent', lunchContentText);
+updatePrices(lunchPrices);
+buildHTMLByClass('comboPlateReg', comboPlatePrices.reg);
+buildHTMLByClass('chickenStirFryPrice', lunchWokPlates[1].price);
+buildHTMLByClass('saiminBBQChickenPrice', lunchWokPlates[4].price);
 buildHTMLstarter();
 </script>

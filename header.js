@@ -41,7 +41,7 @@ function buildHeader() {
         element.innerHTML = element.innerHTML.replace("activeLunch", "active");
         element.innerHTML = element.innerHTML.replace("activeCatering", "");
     } else { // if (href.includes('catering')
-        currentDataSet = catering;
+        // currentDataSet = catering;
         element.innerHTML = element.innerHTML.replace("activeFull", "");
         element.innerHTML = element.innerHTML.replace("activeHouseFavs", "");
         element.innerHTML = element.innerHTML.replace("activeLunch", "");
