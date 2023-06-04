@@ -70,14 +70,14 @@ const houseFavsContentText =
       <div class="image"><img src="images/lunch/16-chickenStirFry.jpg"></div> \
       <div class="content"> \
         <div class="header">Chicken Stir Fry</div> \
-        <div class="description">$14.99</div> \
+        <div class="description"><span class="chickenStirFryPrice"></span></div> \
       </div> \
     </div> \
     <div class="ui centered card"> \
       <div class="image"><img src="images/lunch/11-bbqChickenWithFriedSaimin.jpg"></div> \
       <div class="content"> \
         <div class="header">Fried Saimin w/ BBQ Chicken</div> \
-        <div class="description">$17.99</div> \
+        <div class="description"><span class="saiminBBQChickenPrice"></span></div> \
       </div> \
     </div> \
   </div> \
@@ -251,14 +251,7 @@ const lunchContentText =
 <div id="wokPlatesDiv"> \
   <div class="ui raised container center aligned segment menuPrice"> \
     <h1 style="text-align: center">Wok Plates</h1> \
-    <ul style="padding: 0px"> \
-      <li class="biggerfont3">Fried Rice / Chow Mein / Stir Fry Vegetable &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</li> \
-      <li class="biggerfont3">&nbsp&nbsp&nbsp&nbspw/ Beef or Chicken ............................ $14.99</li> \
-      <li class="biggerfont3">&nbsp&nbsp&nbsp&nbspw/ Shrimp ..................................... $15.99</li> \
-      <li class="biggerfont3">Fried Saimin ...................................... $13.99</li> \
-      <li class="biggerfont3">&nbsp&nbsp&nbsp&nbspw/ BBQ Chicken or Teri Beef ................... $17.99</li> \
-      <li class="biggerfont3">Bento (Katsu, Teriyaki Steak, Fish, Spam) ......... $15.99</li> \
-    </ul> \
+    <div id="list0"></div> \
   </div> \
   <br> \
   <div class="ui center aligned container" style="width: 50%"> \
@@ -267,14 +260,14 @@ const lunchContentText =
         <div class="medium image"><img src="images/lunch/16-chickenStirFry.jpg"></div> \
         <div class="content"> \
           <div class="header">Chicken Stir Fry</div> \
-          <div class="description">$14.99</div> \
+          <div class="description"><span class="chickenStirFryPrice"></span></div> \
         </div> \
       </div> \
       <div class="ui centered card"> \
         <div class="image"><img src="images/lunch/11-bbqChickenWithFriedSaimin.jpg"></div> \
         <div class="content"> \
           <div class="header">Fried Saimin w/ BBQ Chicken</div> \
-          <div class="description">$17.99</div> \
+          <div class="description"><span class="saiminBBQChickenPrice"></span></div> \
         </div> \
       </div> \
     </div> \

@@ -22,11 +22,12 @@ const partyPanPackPrices = {
 };
 
 const lunchWokPlates = [
-  { name: "Fried Rice / Chow Mein / Stir Fry Vegetable w/ Beef or Chicken", price: "$14.99", description: "" },
-  { name: "Fried Rice / Chow Mein / Stir Fry Vegetable w/ Shrimp", price: "$15.99", description: "" },
+  { name: "Fried Rice / Chow Mein / Stir Fry Vegetable_______________", price: "", description: "" },
+  { name: "____w/ Beef or Chicken", price: "$14.99", description: "" },
+  { name: "____w/ Shrimp", price: "$15.99", description: "" },
   { name: "Fried Saimin", price: "$13.99", description: "" },
-  { name: "Fried Saimin w/ BBQ Chicken or Teri Beef", price: "$14.99", description: "" },
-  { name: "Bento (Katsu, Teriyaki Steak, Fish, Spam)", price: "$14.99", description: "" },
+  { name: "____w/ BBQ Chicken or Teri Beef", price: "$17.99", description: "" },
+  { name: "Bento (Katsu, Teriyaki Steak, Fish, Spam)", price: "$15.99", description: "" },
 ];
 
 const lunchSandwiches = [
