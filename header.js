@@ -28,7 +28,7 @@ function buildHeader() {
         element.innerHTML = element.innerHTML.replace("activeHouseFavs", "");
         element.innerHTML = element.innerHTML.replace("activeLunch", "");
         element.innerHTML = element.innerHTML.replace("activeCatering", "");
-    } else if (href.includes('houseFavs')) {
+    } else if (href.includes('house')) {
         currentDataSet = lunch;
         element.innerHTML = element.innerHTML.replace("activeFull", "");
         element.innerHTML = element.innerHTML.replace("activeHouseFavs", "active");

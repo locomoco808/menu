@@ -4,7 +4,7 @@ const lunchPrices = {
   tier3: {reg: "$16.99", mini: "$12.99"},
 };
 
-const comboPlatePrices = {reg: "$17.99", mini: "$17.99"};
+const comboPlatePrices = {reg: "$19.99", mini: "$19.99"};
 
 const partyPanPrices = {
   tier1: {sm: "$34.99", md: "$55.99", lg: "$80.99"},
