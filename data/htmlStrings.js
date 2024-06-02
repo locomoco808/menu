@@ -348,12 +348,9 @@ const cateringContentText =
     <div class="item"><div class="content biggerfont3">Teriyaki Beef</div></div> \
     <div class="item"><div class="content biggerfont3">Beef Stew</div></div> \
     <div class="item"><div class="content biggerfont3">Beef Curry</div></div> \
+    <div class="item"><div class="content biggerfont3">Beef Broccoli</div></div> \
     <div class="item"><div class="content biggerfont3">Shrimp Fried Rice</div></div> \
     <div class="item"><div class="content biggerfont3">Sweet & Sour Spare Ribs</div></div> \
-  </div> \
-  <h3 class="biggerfont4" style="text-align: center">S <span class="tier4sm"></span> | M <span class="tier4md"></span> | L <span class="tier4lg"></span></h3> \
-  <div class="ui big horizontal list" style="margin: 0px"> \
-    <div class="item"><div class="content biggerfont3">Beef Broccoli</div></div> \
   </div> \
   <h3 class="biggerfont4" style="text-align: center">S <span class="tier5sm"></span> | M <span class="tier5md"></span> | L <span class="tier5lg"></span></h3> \
   <div class="ui big horizontal list" style="margin: 0px"> \
