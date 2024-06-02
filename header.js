@@ -6,10 +6,10 @@ function buildHeader() {
     '<div class="ui fluid inverted menu" id="menuBar"> \
         <a class="biggerfont activeLogo item" style="padding-left: 0.9rem; padding-right: 0.95rem" href="https://locomoco808.github.io/menu/full"><img class="ui small spaced image" src="images/loco-moco-logo.png"></a> \
         <div class="right menu"> \
-          <a class="biggerfont activeFull item" href="https://locomoco808.github.io/menu/full">Full Menu</a> \
-          <a class="biggerfont activeHouseFavs item" href="https://locomoco808.github.io/menu/houseFavs">House Favorites</a> \
-          <a class="biggerfont activeLunch item" href="https://locomoco808.github.io/menu/lunch">Lunch</a> \
-          <a class="biggerfont activeCatering item" href="https://locomoco808.github.io/menu/catering">Catering</a> \
+          <a class="biggerfont activeFull item" href="https://locomoco808.github.io/waipio/full">Full Menu</a> \
+          <a class="biggerfont activeHouseFavs item" href="https://locomoco808.github.io/waipio/houseFavs">House Favorites</a> \
+          <a class="biggerfont activeLunch item" href="https://locomoco808.github.io/waipio/lunch">Lunch</a> \
+          <a class="biggerfont activeCatering item" href="https://locomoco808.github.io/waipio/catering">Catering</a> \
         </div> \
     </div> \
     <div class="ui circular segment phoneOrderSegment"> \
