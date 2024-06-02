@@ -290,7 +290,6 @@ const lunchContentText =
   <br> \
 </div>';
 
-const cateringContentHTML = '';
 const cateringContentText =
 '<div id="partyPanPacks" style="padding: 0px 5%"> \
   <h1 style="text-align: center">Party Pan Packs</h1> \

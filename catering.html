@@ -11,7 +11,6 @@
   <script type="text/javascript" src="../data/globalVars.js"></script>
   <script type="text/javascript" src="../data/header.js"></script>
   <script type="text/javascript" src="../data/htmlStrings.js"></script>
-  <link rel="preload" href="../data/cateringContent.html">
   <link rel="stylesheet" href="stylesheet.css">
 </head>
 <body>
@@ -22,7 +21,7 @@
       <h1 class="pageTitle">Catering</h1>
       <hr>
       <br>
-      <div id="cateringPlaceholder"></div>
+      <div id="cateringContent"></div>
       <br>
     </div>
   </div>
@@ -33,11 +32,7 @@
 <script type="text/javascript">
 buildHeader();
 buildHTMLBasic('footer', footerText);
-// buildHTMLBasic('cateringContent', cateringContentText);
-// loadHTMLString('cateringContent', cateringContentHTML);
-let cateringContentHTML = document.getElementById('cateringContent').outerHTML;
-console.log(cateringContentHTML);
-buildHTMLBasic('cateringPlaceholder', cateringContentHTML);
+buildHTMLBasic('cateringContent', cateringContentText);
 updatePrices(partyPanPrices);
 buildHTMLByClass('partyPanPack1', partyPanPackPrices.pack1);
 buildHTMLByClass('partyPanPack2', partyPanPackPrices.pack2);
