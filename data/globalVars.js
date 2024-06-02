@@ -26,6 +26,14 @@ function updatePrices(priceArray) {
   }
 }
 
+function loadVariable(elementId, varName) {
+  let html = document.getElementById(elementId).outerHTML;
+  console.log(html);
+  console.log(varName);
+  varName = html;
+  console.log(varName);
+}
+
 function buildHTMLforMenuPriceList(data, id) {
     let list = document.getElementById(id);
     let element = document.createElement('ul');

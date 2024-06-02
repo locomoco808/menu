@@ -32,7 +32,9 @@
 <script type="text/javascript">
 buildHeader();
 buildHTMLBasic('footer', footerText);
-buildHTMLBasic('cateringContent', cateringContentText);
+// buildHTMLBasic('cateringContent', cateringContentText);
+loadHTMLString('cateringContent', cateringContentText2);
+buildHTMLBasic('cateringContent', cateringContentHTML);
 updatePrices(partyPanPrices);
 buildHTMLByClass('partyPanPack1', partyPanPackPrices.pack1);
 buildHTMLByClass('partyPanPack2', partyPanPackPrices.pack2);
