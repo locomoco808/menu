@@ -26,7 +26,7 @@ function updatePrices(priceArray) {
   }
 }
 
-function loadVariable(elementId, varName) {
+function loadHTMLString(elementId, varName) {
   let html = document.getElementById(elementId).outerHTML;
   console.log(html);
   console.log(varName);
