@@ -21,7 +21,7 @@
       <h1 class="pageTitle">Catering</h1>
       <hr>
       <br>
-      <div id="cateringContent"></div>
+      <div id="cateringPlaceholder"></div>
       <br>
     </div>
   </div>
@@ -33,8 +33,8 @@
 buildHeader();
 buildHTMLBasic('footer', footerText);
 // buildHTMLBasic('cateringContent', cateringContentText);
-loadHTMLString('cateringContent', cateringContentText2);
-buildHTMLBasic('cateringContent', cateringContentHTML);
+loadHTMLString('cateringContent', cateringContentHTML);
+buildHTMLBasic('cateringPlaceholder', cateringContentHTML);
 updatePrices(partyPanPrices);
 buildHTMLByClass('partyPanPack1', partyPanPackPrices.pack1);
 buildHTMLByClass('partyPanPack2', partyPanPackPrices.pack2);
