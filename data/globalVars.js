@@ -1,4 +1,5 @@
 let currentDataSet = [];
+let cateringContentHTML = ['hi'];
 
 function buildHTMLBasic(elementId, htmlString) {
     let targetDiv = document.getElementById(elementId);
@@ -27,12 +28,12 @@ function updatePrices(priceArray) {
 }
 
 function loadHTMLString(elementId, varName) {
-  console.log(elementId);
   let html = document.getElementById(elementId).outerHTML;
-  console.log(html);
   console.log(varName);
-  varName = html;
-  console.log(varName);
+  // this['cateringContentHTML'] = html; doesn't work!!!
+  cateringContentHTML.push(html);
+  // console.log(this['cateringContentHTML']); declares a local variable!!!!
+  // console.log(cateringContentHTML);
 }
 
 function buildHTMLforMenuPriceList(data, id) {

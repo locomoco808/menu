@@ -7,11 +7,16 @@
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.3/semantic.min.js"></script>
   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/underscore@1.12.0/underscore-min.js"></script>
-  <script type="text/javascript" src="../data/menu-data.js"></script>
+  <!-- <script type="text/javascript" src="../data/menu-data.js"></script>
   <script type="text/javascript" src="../data/globalVars.js"></script>
   <script type="text/javascript" src="../data/header.js"></script>
   <script type="text/javascript" src="../data/htmlStrings.js"></script>
-  <link rel="preload" href="../data/cateringContent.html">
+  <link rel="preload" href="../data/cateringContent.html"> -->
+  <script type="text/javascript" src="data/menu-data.js"></script>
+  <script type="text/javascript" src="data/globalVars.js"></script>
+  <script type="text/javascript" src="data/header.js"></script>
+  <script type="text/javascript" src="data/htmlStrings.js"></script>
+  <link rel="prerender" href="data/cateringContent.html">
   <link rel="stylesheet" href="stylesheet.css">
 </head>
 <body>
@@ -35,7 +40,8 @@ buildHeader();
 buildHTMLBasic('footer', footerText);
 // buildHTMLBasic('cateringContent', cateringContentText);
 // loadHTMLString('cateringContent', cateringContentHTML);
-let cateringContentHTML = document.getElementById('cateringContent').outerHTML;
+// let cateringContentHTML = document.getElementById('cateringContent').outerHTML;
+// console.log(cateringContentHTML);
 console.log(cateringContentHTML);
 buildHTMLBasic('cateringPlaceholder', cateringContentHTML);
 updatePrices(partyPanPrices);
