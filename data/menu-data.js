@@ -1,6 +1,6 @@
 const lunchPrices = {
   tier1: {reg: "$13.99", mini: "$9.99"},
-  tier2: {reg: "$14.99", mini: "$10.99"},
+  tier2: {reg: "$15.49", mini: "$11.49"},
   tier3: {reg: "$16.99", mini: "$12.99"},
 };
 
